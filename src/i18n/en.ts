@@ -61,7 +61,8 @@ const en = {
 
   // Vocab quiz panel
   "quiz.title": "✏️ Vocabulary Quiz",
-  "quiz.hint": "Pick a level. 5 multiple-choice questions per round; wrong words are recorded.",
+  "quiz.hint": "Pick a level and questions per round. Wrong words are recorded. 687 CET-4 / 864 CET-6 words.",
+  "quiz.sizeUnit": "Qs",
   "quiz.level4": "CET-4 Words",
   "quiz.level6": "CET-6 Words",
   "quiz.start": "Start Quiz",

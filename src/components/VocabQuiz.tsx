@@ -11,7 +11,8 @@ type Question = { word: WordItem; options: string[]; answer: string };
 const LEVELS = ['cet4', 'cet6'] as const;
 type LevelId = (typeof LEVELS)[number];
 
-const QUIZ_SIZE = 5; // 每轮测试 5 题
+const QUIZ_SIZES = [5, 10, 15, 20]; // 每轮题数可选
+const DEFAULT_QUIZ_SIZE = 10;
 
 /* 词汇文件缓存在内存里，切换级别时不用重复请求 */
 const WORDS_CACHE: Record<string, WordItem[]> = {};
@@ -36,8 +37,8 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 /** 从词库里生成一轮选择题 */
-function buildQuestions(words: WordItem[]): Question[] {
-  const picked = shuffle(words).slice(0, QUIZ_SIZE);
+function buildQuestions(words: WordItem[], size: number): Question[] {
+  const picked = shuffle(words).slice(0, size);
   return picked.map(item => {
     const wrongOptions = shuffle(words.filter(w => w.word !== item.word))
       .slice(0, 3)
@@ -73,6 +74,7 @@ export default function VocabQuiz() {
   const { t } = useT();
 
   const [level, setLevel] = useState<LevelId>('cet4');
+  const [size, setSize] = useState<number>(DEFAULT_QUIZ_SIZE);
   const [questions, setQuestions] = useState<Question[] | null>(null);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
@@ -86,7 +88,7 @@ export default function VocabQuiz() {
     setError(null);
     try {
       const words = await loadWords(lv);
-      setQuestions(buildQuestions(words));
+      setQuestions(buildQuestions(words, size));
       setIndex(0);
       setSelected(null);
       setScore(0);
@@ -96,7 +98,7 @@ export default function VocabQuiz() {
     } finally {
       setLoading(false);
     }
-  }, [t]);
+  }, [t, size]);
 
   const handleSelect = useCallback((option: string) => {
     if (!questions || selected !== null) return; // 已答过，锁定
@@ -138,6 +140,17 @@ export default function VocabQuiz() {
               onClick={() => setLevel(lv)}
             >
               {lv === 'cet4' ? t('quiz.level4') : t('quiz.level6')}
+            </button>
+          ))}
+        </div>
+        <div className={styles.levelRow}>
+          {QUIZ_SIZES.map(n => (
+            <button
+              key={n}
+              className={`${styles.levelBtn} ${n === size ? styles.levelBtnActive : ''}`}
+              onClick={() => setSize(n)}
+            >
+              {n} {t('quiz.sizeUnit')}
             </button>
           ))}
         </div>

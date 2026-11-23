@@ -61,7 +61,8 @@ const zh = {
 
   // Vocab quiz panel
   "quiz.title": "✏️ 词汇测试",
-  "quiz.hint": "选择级别，每次 5 道选择题，答错单词会记录下来。",
+  "quiz.hint": "选择级别和每轮题数，答错单词会记录下来。词库含四级 687 词 / 六级 864 词。",
+  "quiz.sizeUnit": "题",
   "quiz.level4": "四级词汇",
   "quiz.level6": "六级词汇",
   "quiz.start": "开始测试",
