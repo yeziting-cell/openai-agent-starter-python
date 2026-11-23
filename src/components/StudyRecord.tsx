@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useT } from '../i18n';
-import { loadStudyStats, loadDailySeries, type DayPoint } from '../lib/studyStats';
+import { loadStudyStats, loadDailySeries, type StudyStats, type DayPoint } from '../lib/studyStats';
 import { exportStudyReport } from '../api';
 import { speak } from '../lib/speak';
 import styles from './StudyRecord.module.css';
