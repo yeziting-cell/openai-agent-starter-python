@@ -34,6 +34,8 @@ const en = {
   "plan.title": "🗓️ Study Plan",
   "plan.hint": "No study plan yet. Ask in the chat, e.g. \"Make me a CET-4 study plan, exam date 2026-06-13, 2 hours per day\" — the AI-generated plan is saved here automatically.",
   "plan.savedAt": "Saved at",
+  "plan.check": "Toggle done",
+  "plan.progress": "Progress",
   "plan.delete": "Delete plan",
 
   // Study record panel
@@ -46,6 +48,10 @@ const en = {
   "record.planYes": "Created",
   "record.planNo": "None",
   "record.wrongTitle": "Wrong-word book (sorted by count, top 10):",
+  "record.chartTitle": "🌱 Last 7 Days",
+  "record.chartQuiz": "Quiz",
+  "record.chartTranslate": "Translate",
+  "record.chartEssay": "Essay",
   "record.refresh": "Refresh",
   "record.export": "Export Word Report",
   "record.exporting": "Generating…",
@@ -69,6 +75,7 @@ const en = {
   "quiz.wrongTitle": "Wrong words this round:",
   "quiz.wrongSaved": "Wrong words saved to your local study record.",
   "quiz.allRight": "All correct, great job!",
+  "quiz.speak": "Pronounce",
   "quiz.error": "Failed to load vocabulary data. Please try again later.",
 
   // Status & errors

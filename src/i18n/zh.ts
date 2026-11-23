@@ -34,6 +34,8 @@ const zh = {
   "plan.title": "🗓️ 备考计划",
   "plan.hint": "还没有备考计划。在聊天框输入「帮我制定四级备考计划，考试日期 2026-06-13，每天学习 2 小时」，AI 生成的计划会自动保存到这里。",
   "plan.savedAt": "保存时间",
+  "plan.check": "打卡完成 / 取消",
+  "plan.progress": "完成进度",
   "plan.delete": "删除计划",
 
   // Study record panel
@@ -46,6 +48,10 @@ const zh = {
   "record.planYes": "已制定",
   "record.planNo": "暂无",
   "record.wrongTitle": "错词本（按错误次数排序，最多显示 10 个）：",
+  "record.chartTitle": "🌱 近 7 天练习趋势",
+  "record.chartQuiz": "词汇测试",
+  "record.chartTranslate": "翻译练习",
+  "record.chartEssay": "作文批改",
   "record.refresh": "刷新",
   "record.export": "导出 Word 报告",
   "record.exporting": "生成中…",
@@ -69,6 +75,7 @@ const zh = {
   "quiz.wrongTitle": "本轮错词：",
   "quiz.wrongSaved": "错词已保存到本地学习记录。",
   "quiz.allRight": "全对，太棒了！",
+  "quiz.speak": "朗读发音",
   "quiz.error": "词汇数据加载失败，请稍后再试。",
 
   // Status & errors

@@ -1,32 +1,4322 @@
 [
-  {"word": "abolish", "meaning": "v. 废除，取消", "example": "The government decided to abolish the old law."},
-  {"word": "abundant", "meaning": "adj. 丰富的，充裕的", "example": "The country is abundant in natural resources."},
-  {"word": "accelerate", "meaning": "v. 加速，促进", "example": "The new policy will accelerate economic growth."},
-  {"word": "accessible", "meaning": "adj. 可接近的，易获取的", "example": "Online courses make education accessible to everyone."},
-  {"word": "accommodate", "meaning": "v. 容纳；适应", "example": "The hotel can accommodate up to 500 guests."},
-  {"word": "accumulate", "meaning": "v. 积累，积聚", "example": "You should accumulate experience through practice."},
-  {"word": "acknowledge", "meaning": "v. 承认；答谢", "example": "He acknowledged that he had made a mistake."},
-  {"word": "advocate", "meaning": "v./n. 提倡；拥护者", "example": "Many experts advocate learning a second language early."},
-  {"word": "aggravate", "meaning": "v. 加重，恶化", "example": "Stress can aggravate health problems."},
-  {"word": "ambiguous", "meaning": "adj. 模糊不清的，有歧义的", "example": "His ambiguous answer confused everyone."},
-  {"word": "anticipate", "meaning": "v. 预期，期望", "example": "We anticipate that the exam will be difficult this year."},
-  {"word": "coincide", "meaning": "v. 同时发生；一致", "example": "My views coincide with hers on this issue."},
-  {"word": "comprehensive", "meaning": "adj. 全面的，综合的", "example": "The book gives a comprehensive review of grammar."},
-  {"word": "contradict", "meaning": "v. 反驳；与……矛盾", "example": "His actions contradict his promises."},
-  {"word": "deteriorate", "meaning": "v. 恶化，变坏", "example": "His eyesight began to deteriorate after years of overwork."},
-  {"word": "diminish", "meaning": "v. 减少，缩小", "example": "Time and practice will diminish your fear of speaking."},
-  {"word": "discriminate", "meaning": "v. 歧视；区别", "example": "It is wrong to discriminate against anyone because of their background."},
-  {"word": "eliminate", "meaning": "v. 消除，排除", "example": "Reading widely helps eliminate uncertainty about words."},
-  {"word": "facilitate", "meaning": "v. 促进，使便利", "example": "The new dictionary facilitates vocabulary learning."},
-  {"word": "feasible", "meaning": "adj. 可行的", "example": "Studying ten new words a day is a feasible plan."},
-  {"word": "fluctuate", "meaning": "v. 波动，起伏", "example": "Prices fluctuate according to the market."},
-  {"word": "hypothesis", "meaning": "n. 假设，假说", "example": "The scientist tested his hypothesis with an experiment."},
-  {"word": "implement", "meaning": "v. 实施，执行", "example": "The school will implement a new study plan next term."},
-  {"word": "inevitable", "meaning": "adj. 不可避免的", "example": "Making mistakes is an inevitable part of learning."},
-  {"word": "integrate", "meaning": "v. 使融合，使合并", "example": "Try to integrate new words into daily conversation."},
-  {"word": "legitimate", "meaning": "adj. 合法的，正当的", "example": "He has a legitimate reason for missing class."},
-  {"word": "prevail", "meaning": "v. 盛行；获胜", "example": "Truth will prevail in the end."},
-  {"word": "subordinate", "meaning": "adj. 从属的 n. 下级", "example": "Grammar is subordinate to meaning in communication."},
-  {"word": "sustain", "meaning": "v. 维持，支撑", "example": "It is hard to sustain interest without clear goals."},
-  {"word": "underestimate", "meaning": "v. 低估", "example": "Do not underestimate the difficulty of the CET6 test."}
+ {
+  "word": "abide",
+  "meaning": "v. 遵守；忍受",
+  "example": "Everyone must abide by the rules."
+ },
+ {
+  "word": "abolish",
+  "meaning": "v. 废除；取消",
+  "example": "The country abolished the old tax law."
+ },
+ {
+  "word": "absurd",
+  "meaning": "adj. 荒谬的；荒唐的",
+  "example": "The idea sounds absurd but works well."
+ },
+ {
+  "word": "abundance",
+  "meaning": "n. 大量；丰富",
+  "example": "The region has an abundance of rain."
+ },
+ {
+  "word": "acclaim",
+  "meaning": "v./n. 称赞；喝彩",
+  "example": "The novel won critical acclaim."
+ },
+ {
+  "word": "accommodate",
+  "meaning": "v. 容纳；为…提供住宿",
+  "example": "The hall can accommodate 800 people."
+ },
+ {
+  "word": "activate",
+  "meaning": "v. 激活；启动",
+  "example": "Enter the code to activate the account."
+ },
+ {
+  "word": "addict",
+  "meaning": "n. 上瘾者 v. 使沉溺",
+  "example": "He became a game addict last year."
+ },
+ {
+  "word": "adhere",
+  "meaning": "v. 粘附；坚持",
+  "example": "Wet paper adheres to the glass easily."
+ },
+ {
+  "word": "adjacent",
+  "meaning": "adj. 邻近的；毗连的",
+  "example": "The hotel is adjacent to the station."
+ },
+ {
+  "word": "administer",
+  "meaning": "v. 管理；执行",
+  "example": "A special office administers the fund."
+ },
+ {
+  "word": "adolescent",
+  "meaning": "n. 青少年 adj. 青春期的",
+  "example": "Adolescents need more sleep than adults."
+ },
+ {
+  "word": "advent",
+  "meaning": "n. 到来；出现",
+  "example": "The advent of smartphones changed everything."
+ },
+ {
+  "word": "adverse",
+  "meaning": "adj. 不利的；有害的",
+  "example": "The medicine has adverse side effects."
+ },
+ {
+  "word": "advocate",
+  "meaning": "v. 提倡 n. 拥护者",
+  "example": "Doctors advocate a low-sugar diet."
+ },
+ {
+  "word": "aesthetic",
+  "meaning": "adj. 美学的；审美的",
+  "example": "The building has great aesthetic value."
+ },
+ {
+  "word": "affiliate",
+  "meaning": "v. 使隶属 n. 附属机构",
+  "example": "The lab is affiliated with the university."
+ },
+ {
+  "word": "aggravate",
+  "meaning": "v. 加重；恶化",
+  "example": "Stress aggravates the health problem."
+ },
+ {
+  "word": "agitate",
+  "meaning": "v. 搅动；鼓动",
+  "example": "Workers agitated for better conditions."
+ },
+ {
+  "word": "agony",
+  "meaning": "n. 极度痛苦；苦恼",
+  "example": "He waited in agony for the result."
+ },
+ {
+  "word": "ailment",
+  "meaning": "n. 小病；不适",
+  "example": "Herbal tea relieves minor ailments."
+ },
+ {
+  "word": "alert",
+  "meaning": "adj. 警觉的 n. 警报",
+  "example": "Stay alert while driving at night."
+ },
+ {
+  "word": "alien",
+  "meaning": "adj. 外国的；陌生的 n. 外星人",
+  "example": "The concept is alien to traditional thinking."
+ },
+ {
+  "word": "align",
+  "meaning": "v. 对齐；使一致",
+  "example": "Align the text to the left margin."
+ },
+ {
+  "word": "alleviate",
+  "meaning": "v. 减轻；缓解",
+  "example": "The pill alleviates headaches quickly."
+ },
+ {
+  "word": "allocate",
+  "meaning": "v. 分配；拨出",
+  "example": "The city allocated funds for new parks."
+ },
+ {
+  "word": "ally",
+  "meaning": "n. 同盟者 v. 结盟",
+  "example": "The two countries became close allies."
+ },
+ {
+  "word": "aloof",
+  "meaning": "adj. 冷漠的；疏远的",
+  "example": "He seemed aloof at the party."
+ },
+ {
+  "word": "altar",
+  "meaning": "n. 祭坛；圣坛",
+  "example": "Flowers decorated the church altar."
+ },
+ {
+  "word": "ambiguity",
+  "meaning": "n. 歧义；模棱两可",
+  "example": "Avoid ambiguity in contract wording."
+ },
+ {
+  "word": "ambiguous",
+  "meaning": "adj. 模糊的；有歧义的",
+  "example": "His answer was deliberately ambiguous."
+ },
+ {
+  "word": "amend",
+  "meaning": "v. 修改；修订",
+  "example": "The committee amended the proposal."
+ },
+ {
+  "word": "amid",
+  "meaning": "prep. 在…之中",
+  "example": "The town stayed calm amid the storm."
+ },
+ {
+  "word": "ample",
+  "meaning": "adj. 充足的；宽敞的",
+  "example": "There is ample time before the train."
+ },
+ {
+  "word": "analogy",
+  "meaning": "n. 类比；类推",
+  "example": "The teacher explained the rule by analogy."
+ },
+ {
+  "word": "anonymous",
+  "meaning": "adj. 匿名的；无名的",
+  "example": "The donor wished to stay anonymous."
+ },
+ {
+  "word": "anticipation",
+  "meaning": "n. 期待；预料",
+  "example": "The children waited in anticipation."
+ },
+ {
+  "word": "apparatus",
+  "meaning": "n. 设备；机构",
+  "example": "The lab bought new testing apparatus."
+ },
+ {
+  "word": "appease",
+  "meaning": "v. 安抚；平息",
+  "example": "A warm hug appeased the crying child."
+ },
+ {
+  "word": "append",
+  "meaning": "v. 附加；添加",
+  "example": "Append your signature to the document."
+ },
+ {
+  "word": "applause",
+  "meaning": "n. 掌声；喝彩",
+  "example": "Her speech drew loud applause."
+ },
+ {
+  "word": "apt",
+  "meaning": "adj. 恰当的；易于…的",
+  "example": "Iron is apt to rust in damp air."
+ },
+ {
+  "word": "arch",
+  "meaning": "n. 拱门 v. 拱起",
+  "example": "They walked under a stone arch."
+ },
+ {
+  "word": "arduous",
+  "meaning": "adj. 艰巨的；费力的",
+  "example": "Climbing the peak was an arduous task."
+ },
+ {
+  "word": "arena",
+  "meaning": "n. 竞技场；舞台",
+  "example": "The singer entered the political arena."
+ },
+ {
+  "word": "armor",
+  "meaning": "n. 盔甲；装甲",
+  "example": "The knight wore heavy armor."
+ },
+ {
+  "word": "arrogant",
+  "meaning": "adj. 傲慢的；自大的",
+  "example": "Nobody likes an arrogant winner."
+ },
+ {
+  "word": "articulate",
+  "meaning": "adj. 表达清晰的 v. 清楚表达",
+  "example": "She is articulate about her ideas."
+ },
+ {
+  "word": "ascend",
+  "meaning": "v. 上升；攀登",
+  "example": "The plane ascended into the clouds."
+ },
+ {
+  "word": "ascribe",
+  "meaning": "v. 归因于",
+  "example": "He ascribed his success to luck."
+ },
+ {
+  "word": "aspiration",
+  "meaning": "n. 志向；渴望",
+  "example": "Her aspiration is to study abroad."
+ },
+ {
+  "word": "assault",
+  "meaning": "n./v. 攻击；袭击",
+  "example": "The report describes an assault on free speech."
+ },
+ {
+  "word": "assert",
+  "meaning": "v. 断言；主张",
+  "example": "He asserted his innocence clearly."
+ },
+ {
+  "word": "assimilate",
+  "meaning": "v. 同化；吸收",
+  "example": "Students assimilate new ideas at different speeds."
+ },
+ {
+  "word": "attic",
+  "meaning": "n. 阁楼；顶楼",
+  "example": "Old toys were stored in the attic."
+ },
+ {
+  "word": "audit",
+  "meaning": "n./v. 审计；查账",
+  "example": "The annual audit starts next Monday."
+ },
+ {
+  "word": "authentic",
+  "meaning": "adj. 真正的；可信的",
+  "example": "The restaurant serves authentic Italian food."
+ },
+ {
+  "word": "authorize",
+  "meaning": "v. 授权；批准",
+  "example": "The manager authorized the payment."
+ },
+ {
+  "word": "autonomous",
+  "meaning": "adj. 自治的；自主的",
+  "example": "The region became fully autonomous."
+ },
+ {
+  "word": "avert",
+  "meaning": "v. 避免；转移",
+  "example": "Quick action averted a disaster."
+ },
+ {
+  "word": "baffle",
+  "meaning": "v. 使困惑；难住",
+  "example": "The trick baffled even the experts."
+ },
+ {
+  "word": "ballot",
+  "meaning": "n. 选票；投票",
+  "example": "Voters cast their ballots by mail."
+ },
+ {
+  "word": "bankrupt",
+  "meaning": "adj. 破产的 n. 破产者",
+  "example": "The firm went bankrupt last spring."
+ },
+ {
+  "word": "barren",
+  "meaning": "adj. 贫瘠的；不结果实的",
+  "example": "Nothing grows on the barren hill."
+ },
+ {
+  "word": "batter",
+  "meaning": "v. 连续猛击 n. 面糊",
+  "example": "Waves battered the rocky shore."
+ },
+ {
+  "word": "bewilder",
+  "meaning": "v. 使迷惑；使慌乱",
+  "example": "The map bewildered the tourists."
+ },
+ {
+  "word": "bias",
+  "meaning": "n. 偏见；倾向",
+  "example": "The report was written without bias."
+ },
+ {
+  "word": "bizarre",
+  "meaning": "adj. 怪异的；不可思议的",
+  "example": "He wore a bizarre hat to class."
+ },
+ {
+  "word": "blaze",
+  "meaning": "n. 火焰 v. 燃烧",
+  "example": "Firefighters controlled the blaze at dawn."
+ },
+ {
+  "word": "bleak",
+  "meaning": "adj. 阴冷的；暗淡的",
+  "example": "The forecast for jobs looks bleak."
+ },
+ {
+  "word": "bliss",
+  "meaning": "n. 极乐；天赐之福",
+  "example": "Lying on the beach is pure bliss."
+ },
+ {
+  "word": "blunder",
+  "meaning": "n. 大错 v. 犯大错",
+  "example": "A costly blunder delayed the launch."
+ },
+ {
+  "word": "blunt",
+  "meaning": "adj. 直率的；钝的",
+  "example": "She gave a blunt but honest answer."
+ },
+ {
+  "word": "booth",
+  "meaning": "n. 摊位；小隔间",
+  "example": "We bought snacks at a small booth."
+ },
+ {
+  "word": "botanical",
+  "meaning": "adj. 植物学的",
+  "example": "The botanical garden grows rare orchids."
+ },
+ {
+  "word": "boycott",
+  "meaning": "v./n. 抵制；拒绝参加",
+  "example": "Consumers boycotted the unfair brand."
+ },
+ {
+  "word": "breach",
+  "meaning": "n. 违反；破裂",
+  "example": "Sharing the file breaches the contract."
+ },
+ {
+  "word": "breakdown",
+  "meaning": "n. 故障；崩溃；分类",
+  "example": "She gave a breakdown of the costs."
+ },
+ {
+  "word": "brink",
+  "meaning": "n. 边缘；边沿",
+  "example": "The company was on the brink of failure."
+ },
+ {
+  "word": "brisk",
+  "meaning": "adj. 轻快的；兴隆的",
+  "example": "They took a brisk walk in the park."
+ },
+ {
+  "word": "browse",
+  "meaning": "v. 浏览；随意翻阅",
+  "example": "I browse the news over breakfast."
+ },
+ {
+  "word": "bruise",
+  "meaning": "n. 瘀伤 v. 擦伤",
+  "example": "The fall left a bruise on his knee."
+ },
+ {
+  "word": "brutal",
+  "meaning": "adj. 残忍的；严酷的",
+  "example": "The training was long and brutal."
+ },
+ {
+  "word": "bully",
+  "meaning": "v. 欺负 n. 恶霸",
+  "example": "Schools punish students who bully others."
+ },
+ {
+  "word": "bureaucracy",
+  "meaning": "n. 官僚主义；官僚机构",
+  "example": "Excessive bureaucracy slows every project."
+ },
+ {
+  "word": "bust",
+  "meaning": "v. 打破；破产 n. 半身像",
+  "example": "The sculpture is a bronze bust."
+ },
+ {
+  "word": "calamity",
+  "meaning": "n. 灾难；不幸事件",
+  "example": "The flood was a terrible calamity."
+ },
+ {
+  "word": "camouflage",
+  "meaning": "n. 伪装 v. 掩饰",
+  "example": "Soldiers use camouflage to hide."
+ },
+ {
+  "word": "capsule",
+  "meaning": "n. 胶囊；太空舱",
+  "example": "Take one capsule after each meal."
+ },
+ {
+  "word": "casualty",
+  "meaning": "n. 伤亡人员；受害者",
+  "example": "Thankfully, there were no casualties."
+ },
+ {
+  "word": "catastrophe",
+  "meaning": "n. 大灾难；惨败",
+  "example": "Losing the data would be a catastrophe."
+ },
+ {
+  "word": "cater",
+  "meaning": "v. 迎合；提供饮食",
+  "example": "The menu caters to all tastes."
+ },
+ {
+  "word": "chaos",
+  "meaning": "n. 混乱；无秩序",
+  "example": "The sudden alarm caused total chaos."
+ },
+ {
+  "word": "characterize",
+  "meaning": "v. 描述…的特征",
+  "example": "The desert is characterized by dryness."
+ },
+ {
+  "word": "charter",
+  "meaning": "n. 宪章 v. 特许",
+  "example": "The club drafted its first charter."
+ },
+ {
+  "word": "chronic",
+  "meaning": "adj. 慢性的；长期的",
+  "example": "He suffers from chronic back pain."
+ },
+ {
+  "word": "circulate",
+  "meaning": "v. 循环；传播",
+  "example": "Blood circulates through the body."
+ },
+ {
+  "word": "civilian",
+  "meaning": "n. 平民；老百姓",
+  "example": "Civilians were evacuated before dawn."
+ },
+ {
+  "word": "clarity",
+  "meaning": "n. 清晰；明确",
+  "example": "She explained the rule with clarity."
+ },
+ {
+  "word": "clash",
+  "meaning": "v./n. 冲突；撞击",
+  "example": "The two meetings clash on Friday."
+ },
+ {
+  "word": "clasp",
+  "meaning": "v. 紧握 n. 扣子",
+  "example": "She clasped the old photo tightly."
+ },
+ {
+  "word": "cling",
+  "meaning": "v. 紧抓；依附",
+  "example": "Wet clothes cling to the body."
+ },
+ {
+  "word": "coax",
+  "meaning": "v. 哄劝；耐心诱导",
+  "example": "He coaxed the shy dog out of the corner."
+ },
+ {
+  "word": "cognitive",
+  "meaning": "adj. 认知的",
+  "example": "Games can boost cognitive skills."
+ },
+ {
+  "word": "coincide",
+  "meaning": "v. 巧合；同时发生",
+  "example": "My holiday coincides with the festival."
+ },
+ {
+  "word": "collaborate",
+  "meaning": "v. 合作；协作",
+  "example": "The two labs collaborate on research."
+ },
+ {
+  "word": "collide",
+  "meaning": "v. 碰撞；冲突",
+  "example": "The truck collided with a van."
+ },
+ {
+  "word": "commemorate",
+  "meaning": "v. 纪念；庆祝",
+  "example": "A statue commemorates the founder."
+ },
+ {
+  "word": "commence",
+  "meaning": "v. 开始；着手",
+  "example": "The ceremony will commence at noon."
+ },
+ {
+  "word": "compact",
+  "meaning": "adj. 紧凑的 n. 契约",
+  "example": "She keeps a compact camera in her bag."
+ },
+ {
+  "word": "compatible",
+  "meaning": "adj. 兼容的；合得来的",
+  "example": "The software is compatible with all systems."
+ },
+ {
+  "word": "compensate",
+  "meaning": "v. 补偿；弥补",
+  "example": "Nothing compensates for lost time."
+ },
+ {
+  "word": "competence",
+  "meaning": "n. 能力；胜任",
+  "example": "His competence in English impressed us."
+ },
+ {
+  "word": "compile",
+  "meaning": "v. 编写；汇编",
+  "example": "They compiled a list of cheap restaurants."
+ },
+ {
+  "word": "comply",
+  "meaning": "v. 遵从；依从",
+  "example": "All firms must comply with the law."
+ },
+ {
+  "word": "composite",
+  "meaning": "adj. 合成的 n. 合成物",
+  "example": "The wall panel is a composite material."
+ },
+ {
+  "word": "compulsory",
+  "meaning": "adj. 强制的；必修的",
+  "example": "English is a compulsory subject here."
+ },
+ {
+  "word": "conceive",
+  "meaning": "v. 构想；怀孕",
+  "example": "She conceived the plan during a trip."
+ },
+ {
+  "word": "condense",
+  "meaning": "v. 压缩；凝结",
+  "example": "Condense the essay into one page."
+ },
+ {
+  "word": "confidential",
+  "meaning": "adj. 机密的；保密的",
+  "example": "The report contains confidential data."
+ },
+ {
+  "word": "conform",
+  "meaning": "v. 符合；遵照",
+  "example": "The product conforms to safety standards."
+ },
+ {
+  "word": "consecutive",
+  "meaning": "adj. 连续的",
+  "example": "It rained for five consecutive days."
+ },
+ {
+  "word": "conserve",
+  "meaning": "v. 保存；节约",
+  "example": "We should conserve water at home."
+ },
+ {
+  "word": "console",
+  "meaning": "v. 安慰 n. 控制台",
+  "example": "Friends consoled her after the loss."
+ },
+ {
+  "word": "consolidate",
+  "meaning": "v. 巩固；合并",
+  "example": "The merger consolidates two small firms."
+ },
+ {
+  "word": "conspicuous",
+  "meaning": "adj. 显眼的；惹人注目的",
+  "example": "His red hat was conspicuous in the crowd."
+ },
+ {
+  "word": "constituent",
+  "meaning": "n. 成分；选民",
+  "example": "Water is a constituent of many foods."
+ },
+ {
+  "word": "constrain",
+  "meaning": "v. 限制；约束",
+  "example": "Lack of funds constrains the research."
+ },
+ {
+  "word": "contemplate",
+  "meaning": "v. 沉思；打算",
+  "example": "She contemplated changing her job."
+ },
+ {
+  "word": "contempt",
+  "meaning": "n. 轻视；蔑视",
+  "example": "He showed contempt for unfair rules."
+ },
+ {
+  "word": "continuity",
+  "meaning": "n. 连续性；连贯",
+  "example": "The film lacked narrative continuity."
+ },
+ {
+  "word": "contractor",
+  "meaning": "n. 承包商",
+  "example": "The contractor finished the road early."
+ },
+ {
+  "word": "contrive",
+  "meaning": "v. 设法做到；设计",
+  "example": "They contrived a way to escape."
+ },
+ {
+  "word": "controversy",
+  "meaning": "n. 争论；争议",
+  "example": "The new policy sparked controversy."
+ },
+ {
+  "word": "converge",
+  "meaning": "v. 汇聚；聚集",
+  "example": "The two rivers converge near the town."
+ },
+ {
+  "word": "cordial",
+  "meaning": "adj. 诚恳的；热忱的",
+  "example": "We received a cordial welcome."
+ },
+ {
+  "word": "correlate",
+  "meaning": "v. 相关；关联",
+  "example": "Income correlates with education level."
+ },
+ {
+  "word": "corrode",
+  "meaning": "v. 腐蚀；侵蚀",
+  "example": "Salt water corrodes metal pipes."
+ },
+ {
+  "word": "cosmic",
+  "meaning": "adj. 宇宙的",
+  "example": "Telescopes capture cosmic dust."
+ },
+ {
+  "word": "counteract",
+  "meaning": "v. 抵消；对抗",
+  "example": "Exercise counteracts stress."
+ },
+ {
+  "word": "counterpart",
+  "meaning": "n. 对应的人（物）",
+  "example": "The minister met her foreign counterpart."
+ },
+ {
+  "word": "courtesy",
+  "meaning": "n. 礼貌；好意",
+  "example": "He thanked them for their courtesy."
+ },
+ {
+  "word": "cozy",
+  "meaning": "adj. 温暖舒适的",
+  "example": "The small cafe feels warm and cozy."
+ },
+ {
+  "word": "cradle",
+  "meaning": "n. 摇篮；发源地",
+  "example": "The valley is the cradle of that culture."
+ },
+ {
+  "word": "credible",
+  "meaning": "adj. 可信的；可靠的",
+  "example": "The witness gave a credible account."
+ },
+ {
+  "word": "cripple",
+  "meaning": "v. 严重削弱 n. 跛子",
+  "example": "High costs crippled the small firm."
+ },
+ {
+  "word": "crumble",
+  "meaning": "v. 崩溃；碎裂",
+  "example": "The old wall crumbled into dust."
+ },
+ {
+  "word": "culminate",
+  "meaning": "v. 达到顶点；告终",
+  "example": "The festival culminates in fireworks."
+ },
+ {
+  "word": "culprit",
+  "meaning": "n. 罪魁祸首；肇事者",
+  "example": "Stress is often the real culprit."
+ },
+ {
+  "word": "cumulative",
+  "meaning": "adj. 累积的",
+  "example": "Small savings have a cumulative effect."
+ },
+ {
+  "word": "curb",
+  "meaning": "v. 控制 n. 路缘",
+  "example": "The city curbs noise after 10 pm."
+ },
+ {
+  "word": "curriculum",
+  "meaning": "n. 课程；课程体系",
+  "example": "The school updated its curriculum."
+ },
+ {
+  "word": "cynical",
+  "meaning": "adj. 愤世嫉俗的",
+  "example": "He is cynical about online ads."
+ },
+ {
+  "word": "dampen",
+  "meaning": "v. 抑制；使潮湿",
+  "example": "Fear dampened their enthusiasm."
+ },
+ {
+  "word": "dazzle",
+  "meaning": "v. 使目眩；使赞叹",
+  "example": "The stage lights dazzled the audience."
+ },
+ {
+  "word": "deadlock",
+  "meaning": "n. 僵局；僵持",
+  "example": "The talks ended in a deadlock."
+ },
+ {
+  "word": "deceit",
+  "meaning": "n. 欺骗；欺诈行为",
+  "example": "The story is built on deceit."
+ },
+ {
+  "word": "decisive",
+  "meaning": "adj. 决定性的；果断的",
+  "example": "One decisive goal won the match."
+ },
+ {
+  "word": "dedicate",
+  "meaning": "v. 奉献；专门用于",
+  "example": "She dedicates her weekends to teaching."
+ },
+ {
+  "word": "deduce",
+  "meaning": "v. 推断；演绎",
+  "example": "I deduced the answer from the clues."
+ },
+ {
+  "word": "deficiency",
+  "meaning": "n. 缺乏；缺陷",
+  "example": "Vitamin D deficiency causes tiredness."
+ },
+ {
+  "word": "deficit",
+  "meaning": "n. 赤字；亏损",
+  "example": "The company cut its budget deficit."
+ },
+ {
+  "word": "degrade",
+  "meaning": "v. 降低；使退化",
+  "example": "Plastic bags degrade very slowly."
+ },
+ {
+  "word": "deliberately",
+  "meaning": "adv. 故意地；谨慎地",
+  "example": "He deliberately missed the early bus."
+ },
+ {
+  "word": "denote",
+  "meaning": "v. 表示；意味着",
+  "example": "A red light denotes danger."
+ },
+ {
+  "word": "denounce",
+  "meaning": "v. 谴责；告发",
+  "example": "Leaders denounced the violent act."
+ },
+ {
+  "word": "deplete",
+  "meaning": "v. 耗尽；使枯竭",
+  "example": "Overuse depletes the soil."
+ },
+ {
+  "word": "deplore",
+  "meaning": "v. 强烈反对；谴责",
+  "example": "We deplore any form of cheating."
+ },
+ {
+  "word": "deploy",
+  "meaning": "v. 部署；调度",
+  "example": "The company deployed new servers."
+ },
+ {
+  "word": "depreciate",
+  "meaning": "v. 贬值；轻视",
+  "example": "Cars depreciate quickly in value."
+ },
+ {
+  "word": "deprive",
+  "meaning": "v. 剥夺；使丧失",
+  "example": "No one may deprive you of education."
+ },
+ {
+  "word": "descendant",
+  "meaning": "n. 后代；子孙",
+  "example": "She is a descendant of the first mayor."
+ },
+ {
+  "word": "descent",
+  "meaning": "n. 下降；血统",
+  "example": "The plane began its slow descent."
+ },
+ {
+  "word": "designate",
+  "meaning": "v. 指定；命名",
+  "example": "The room is designated for meetings."
+ },
+ {
+  "word": "despise",
+  "meaning": "v. 鄙视；看不起",
+  "example": "He despises dishonest behavior."
+ },
+ {
+  "word": "destiny",
+  "meaning": "n. 命运；天命",
+  "example": "Hard work shapes your own destiny."
+ },
+ {
+  "word": "deteriorate",
+  "meaning": "v. 恶化；变坏",
+  "example": "Her eyesight deteriorated last year."
+ },
+ {
+  "word": "deviate",
+  "meaning": "v. 偏离；违背",
+  "example": "Never deviate from the main topic."
+ },
+ {
+  "word": "devious",
+  "meaning": "adj. 狡猾的；迂回的",
+  "example": "The plan took a devious route."
+ },
+ {
+  "word": "devise",
+  "meaning": "v. 设计；想出",
+  "example": "They devised a clever solution."
+ },
+ {
+  "word": "diffuse",
+  "meaning": "v. 扩散 adj. 弥漫的",
+  "example": "Perfume diffuses through the room."
+ },
+ {
+  "word": "dilemma",
+  "meaning": "n. 困境；两难",
+  "example": "She faced the dilemma of work or study."
+ },
+ {
+  "word": "diligent",
+  "meaning": "adj. 勤奋的；用功的",
+  "example": "Diligent students finish tasks early."
+ },
+ {
+  "word": "dilute",
+  "meaning": "v. 稀释；冲淡",
+  "example": "Dilute the juice with water."
+ },
+ {
+  "word": "discard",
+  "meaning": "v. 丢弃；抛弃",
+  "example": "Discard the expired milk at once."
+ },
+ {
+  "word": "discern",
+  "meaning": "v. 辨别；察觉",
+  "example": "I could discern a smile on her face."
+ },
+ {
+  "word": "disclose",
+  "meaning": "v. 公开；透露",
+  "example": "The firm disclosed its yearly profits."
+ },
+ {
+  "word": "discreet",
+  "meaning": "adj. 谨慎的；不显眼的",
+  "example": "She made a discreet phone call."
+ },
+ {
+  "word": "discrepancy",
+  "meaning": "n. 差异；不一致",
+  "example": "There is a discrepancy in the two reports."
+ },
+ {
+  "word": "disgrace",
+  "meaning": "n. 耻辱 v. 使丢脸",
+  "example": "The scandal brought disgrace on the team."
+ },
+ {
+  "word": "disguise",
+  "meaning": "n./v. 伪装；掩饰",
+  "example": "He wore a hat as a disguise."
+ },
+ {
+  "word": "dismay",
+  "meaning": "n. 沮丧 v. 使失望",
+  "example": "To our dismay, the flight was canceled."
+ },
+ {
+  "word": "dispatch",
+  "meaning": "v. 派遣；发送",
+  "example": "They dispatched a rescue team at once."
+ },
+ {
+  "word": "disperse",
+  "meaning": "v. 分散；驱散",
+  "example": "The crowd dispersed after the show."
+ },
+ {
+  "word": "displace",
+  "meaning": "v. 取代；迫使离开",
+  "example": "Robots displace some manual jobs."
+ },
+ {
+  "word": "dispose",
+  "meaning": "v. 处理；处置",
+  "example": "Dispose of rubbish properly."
+ },
+ {
+  "word": "disposition",
+  "meaning": "n. 性情；安排",
+  "example": "She has a cheerful disposition."
+ },
+ {
+  "word": "disrupt",
+  "meaning": "v. 打断；扰乱",
+  "example": "Noise disrupts my concentration."
+ },
+ {
+  "word": "dissolve",
+  "meaning": "v. 溶解；解散",
+  "example": "Sugar dissolves in hot tea."
+ },
+ {
+  "word": "distinctive",
+  "meaning": "adj. 独特的；有特色的",
+  "example": "The cake has a distinctive flavor."
+ },
+ {
+  "word": "distort",
+  "meaning": "v. 歪曲；变形",
+  "example": "Mirrors distort the reflection here."
+ },
+ {
+  "word": "divert",
+  "meaning": "v. 转移；使转向",
+  "example": "Traffic was diverted after the crash."
+ },
+ {
+  "word": "divine",
+  "meaning": "adj. 神的；极好的",
+  "example": "The dessert tastes simply divine."
+ },
+ {
+  "word": "doctrine",
+  "meaning": "n. 学说；教义",
+  "example": "The doctrine shaped national policy."
+ },
+ {
+  "word": "dodge",
+  "meaning": "v. 躲避；规避",
+  "example": "He dodged the falling branch."
+ },
+ {
+  "word": "domain",
+  "meaning": "n. 领域；域名",
+  "example": "Chemistry is not my domain of study."
+ },
+ {
+  "word": "dominate",
+  "meaning": "v. 支配；占主导",
+  "example": "One tower dominates the city skyline."
+ },
+ {
+  "word": "doom",
+  "meaning": "n. 厄运 v. 注定",
+  "example": "The project seemed doomed from the start."
+ },
+ {
+  "word": "dread",
+  "meaning": "v./n. 恐惧；担忧",
+  "example": "I dread speaking before a big crowd."
+ },
+ {
+  "word": "drought",
+  "meaning": "n. 干旱；旱灾",
+  "example": "The drought dried up the wells."
+ },
+ {
+  "word": "dual",
+  "meaning": "adj. 双的；两重的",
+  "example": "The phone has dual cameras."
+ },
+ {
+  "word": "dubious",
+  "meaning": "adj. 可疑的；半信半疑的",
+  "example": "The deal sounds dubious to me."
+ },
+ {
+  "word": "duplicate",
+  "meaning": "v. 复制 n. 复制品",
+  "example": "Duplicate the key before losing it."
+ },
+ {
+  "word": "dwell",
+  "meaning": "v. 居住；详述",
+  "example": "Don't dwell on past mistakes."
+ },
+ {
+  "word": "eccentric",
+  "meaning": "adj. 古怪的；怪癖的",
+  "example": "The eccentric artist wore odd clothes."
+ },
+ {
+  "word": "eclipse",
+  "meaning": "n. 日食 v. 使黯然失色",
+  "example": "We watched the solar eclipse today."
+ },
+ {
+  "word": "edible",
+  "meaning": "adj. 可以吃的；可食用的",
+  "example": "Some wild mushrooms are not edible."
+ },
+ {
+  "word": "eject",
+  "meaning": "v. 弹出；驱逐",
+  "example": "The machine ejects the card automatically."
+ },
+ {
+  "word": "elapse",
+  "meaning": "v. 流逝；逝去",
+  "example": "Three years elapsed before we met again."
+ },
+ {
+  "word": "elevate",
+  "meaning": "v. 提升；举起",
+  "example": "Reading elevates the mind."
+ },
+ {
+  "word": "elicit",
+  "meaning": "v. 引出；诱出",
+  "example": "The joke elicited loud laughter."
+ },
+ {
+  "word": "eligible",
+  "meaning": "adj. 有资格的；合适的",
+  "example": "Students over 18 are eligible to vote."
+ },
+ {
+  "word": "eloquent",
+  "meaning": "adj. 雄辩的；有说服力的",
+  "example": "Her eloquent speech moved the judges."
+ },
+ {
+  "word": "embark",
+  "meaning": "v. 上船；着手",
+  "example": "He embarked on a new career."
+ },
+ {
+  "word": "embody",
+  "meaning": "v. 体现；包含",
+  "example": "The design embodies local culture."
+ },
+ {
+  "word": "embroidery",
+  "meaning": "n. 刺绣；绣品",
+  "example": "Her embroidery won first prize."
+ },
+ {
+  "word": "eminent",
+  "meaning": "adj. 杰出的；著名的",
+  "example": "An eminent scientist gave the lecture."
+ },
+ {
+  "word": "endeavor",
+  "meaning": "n./v. 努力；尽力",
+  "example": "Scientific endeavor requires patience."
+ },
+ {
+  "word": "endorse",
+  "meaning": "v. 赞同；背书",
+  "example": "Famous chefs endorse the kitchen tool."
+ },
+ {
+  "word": "engaging",
+  "meaning": "adj. 迷人的；吸引人的",
+  "example": "The teacher has an engaging style."
+ },
+ {
+  "word": "engrave",
+  "meaning": "v. 雕刻；铭刻",
+  "example": "They engraved her name on the trophy."
+ },
+ {
+  "word": "enlighten",
+  "meaning": "v. 启发；启蒙",
+  "example": "Books enlighten curious minds."
+ },
+ {
+  "word": "enrich",
+  "meaning": "v. 充实；使富有",
+  "example": "Travel enriches your life experience."
+ },
+ {
+  "word": "enroll",
+  "meaning": "v. 注册；登记入学",
+  "example": "She enrolled in a night class."
+ },
+ {
+  "word": "ensue",
+  "meaning": "v. 接着发生；随之而来",
+  "example": "A long discussion ensued after the talk."
+ },
+ {
+  "word": "entail",
+  "meaning": "v. 需要；牵涉",
+  "example": "The job entails frequent travel."
+ },
+ {
+  "word": "entitle",
+  "meaning": "v. 使有权；给…题名",
+  "example": "The ticket entitles you to a free drink."
+ },
+ {
+  "word": "entity",
+  "meaning": "n. 实体；存在物",
+  "example": "The company became a separate legal entity."
+ },
+ {
+  "word": "entrepreneur",
+  "meaning": "n. 企业家；创业者",
+  "example": "The young entrepreneur opened two shops."
+ },
+ {
+  "word": "envisage",
+  "meaning": "v. 设想；预见",
+  "example": "I envisage a quieter office next year."
+ },
+ {
+  "word": "epidemic",
+  "meaning": "n. 流行病；蔓延",
+  "example": "The flu epidemic closed three schools."
+ },
+ {
+  "word": "equator",
+  "meaning": "n. 赤道",
+  "example": "The equator divides the earth in half."
+ },
+ {
+  "word": "erase",
+  "meaning": "v. 擦掉；删除",
+  "example": "Erase the wrong answer carefully."
+ },
+ {
+  "word": "erode",
+  "meaning": "v. 侵蚀；削弱",
+  "example": "Waves erode the sandy beach."
+ },
+ {
+  "word": "erroneous",
+  "meaning": "adj. 错误的；不正确的",
+  "example": "The report contained erroneous data."
+ },
+ {
+  "word": "escalate",
+  "meaning": "v. 升级；逐步扩大",
+  "example": "The quarrel escalated into a fight."
+ },
+ {
+  "word": "escort",
+  "meaning": "v. 护送 n. 护卫者",
+  "example": "Guards escorted the visitor inside."
+ },
+ {
+  "word": "essence",
+  "meaning": "n. 本质；精华",
+  "example": "Time is of the essence in rescue work."
+ },
+ {
+  "word": "eternal",
+  "meaning": "adj. 永恒的；永远的",
+  "example": "No one finds eternal youth in a bottle."
+ },
+ {
+  "word": "evacuate",
+  "meaning": "v. 疏散；撤离",
+  "example": "Residents evacuated before the typhoon."
+ },
+ {
+  "word": "evaporate",
+  "meaning": "v. 蒸发；消失",
+  "example": "Water evaporates quickly in the heat."
+ },
+ {
+  "word": "evoke",
+  "meaning": "v. 唤起；引起",
+  "example": "The old song evokes sweet memories."
+ },
+ {
+  "word": "exasperate",
+  "meaning": "v. 使恼怒；激怒",
+  "example": "Constant delays exasperate commuters."
+ },
+ {
+  "word": "exceed",
+  "meaning": "v. 超过；超出",
+  "example": "Sales exceeded all expectations."
+ },
+ {
+  "word": "exert",
+  "meaning": "v. 施加；发挥",
+  "example": "Parents exert a strong influence on children."
+ },
+ {
+  "word": "exile",
+  "meaning": "n. 流放 v. 放逐",
+  "example": "The poet lived in exile for years."
+ },
+ {
+  "word": "expedition",
+  "meaning": "n. 远征；探险队",
+  "example": "The expedition reached the pole in May."
+ },
+ {
+  "word": "expel",
+  "meaning": "v. 开除；驱逐",
+  "example": "The school expelled him for cheating."
+ },
+ {
+  "word": "expire",
+  "meaning": "v. 到期；失效",
+  "example": "My passport expires next March."
+ },
+ {
+  "word": "explicit",
+  "meaning": "adj. 明确的；直白的",
+  "example": "The manual gives explicit instructions."
+ },
+ {
+  "word": "exquisite",
+  "meaning": "adj. 精美的；精致的",
+  "example": "The box has exquisite carvings."
+ },
+ {
+  "word": "extinct",
+  "meaning": "adj. 灭绝的；熄灭的",
+  "example": "Dinosaurs have been extinct for ages."
+ },
+ {
+  "word": "extinguish",
+  "meaning": "v. 熄灭；压制",
+  "example": "Firefighters extinguished the blaze by noon."
+ },
+ {
+  "word": "extract",
+  "meaning": "v. 提取 n. 摘录",
+  "example": "They extract oil from olives."
+ },
+ {
+  "word": "extravagant",
+  "meaning": "adj. 奢侈的；过度的",
+  "example": "The wedding was too extravagant."
+ },
+ {
+  "word": "fabricate",
+  "meaning": "v. 编造；制造",
+  "example": "He fabricated an excuse for being late."
+ },
+ {
+  "word": "facet",
+  "meaning": "n. 方面；小平面",
+  "example": "Learn every facet of the trade."
+ },
+ {
+  "word": "facilitate",
+  "meaning": "v. 促进；使便利",
+  "example": "The app facilitates group study."
+ },
+ {
+  "word": "fake",
+  "meaning": "adj. 假的 n. 赝品",
+  "example": "The painting turned out to be a fake."
+ },
+ {
+  "word": "fascinate",
+  "meaning": "v. 使着迷；吸引",
+  "example": "Magic tricks fascinate young children."
+ },
+ {
+  "word": "fasten",
+  "meaning": "v. 系紧；扣住",
+  "example": "Fasten the belt before the ride starts."
+ },
+ {
+  "word": "feasible",
+  "meaning": "adj. 可行的；行得通的",
+  "example": "The plan is simple and feasible."
+ },
+ {
+  "word": "feat",
+  "meaning": "n. 功绩；壮举",
+  "example": "Building the bridge was a great feat."
+ },
+ {
+  "word": "fellowship",
+  "meaning": "n. 团体；友谊；奖学金",
+  "example": "She won a research fellowship."
+ },
+ {
+  "word": "feminine",
+  "meaning": "adj. 女性的；阴柔的",
+  "example": "The color has a feminine touch."
+ },
+ {
+  "word": "ferry",
+  "meaning": "n. 渡船 v. 摆渡",
+  "example": "The ferry crosses the river hourly."
+ },
+ {
+  "word": "fierce",
+  "meaning": "adj. 凶猛的；激烈的",
+  "example": "The two teams are fierce rivals."
+ },
+ {
+  "word": "figurative",
+  "meaning": "adj. 比喻的；象征的",
+  "example": "The phrase is figurative, not literal."
+ },
+ {
+  "word": "fiscal",
+  "meaning": "adj. 财政的；会计的",
+  "example": "The fiscal year ends in March."
+ },
+ {
+  "word": "fixture",
+  "meaning": "n. 固定装置；固定成员",
+  "example": "The lamp is a ceiling fixture."
+ },
+ {
+  "word": "flake",
+  "meaning": "n. 薄片 v. 剥落",
+  "example": "Snowflakes fell without any wind."
+ },
+ {
+  "word": "flaw",
+  "meaning": "n. 缺点；裂纹",
+  "example": "Every plan has at least one flaw."
+ },
+ {
+  "word": "fling",
+  "meaning": "v. 扔；抛",
+  "example": "He flung the ball across the yard."
+ },
+ {
+  "word": "fluctuate",
+  "meaning": "v. 波动；起伏",
+  "example": "Prices fluctuate with the seasons."
+ },
+ {
+  "word": "forbid",
+  "meaning": "v. 禁止；不许",
+  "example": "The rules forbid eating in the lab."
+ },
+ {
+  "word": "foremost",
+  "meaning": "adj. 最著名的；最重要的",
+  "example": "Safety comes foremost in the lab."
+ },
+ {
+  "word": "forerunner",
+  "meaning": "n. 先驱；预兆",
+  "example": "The model was a forerunner of modern phones."
+ },
+ {
+  "word": "formulate",
+  "meaning": "v. 制定；系统地阐述",
+  "example": "They formulated a clear strategy."
+ },
+ {
+  "word": "fortify",
+  "meaning": "v. 加强；设防",
+  "example": "Milk fortifies the bones with calcium."
+ },
+ {
+  "word": "fragile",
+  "meaning": "adj. 易碎的；脆弱的",
+  "example": "Handle the fragile vase gently."
+ },
+ {
+  "word": "fraud",
+  "meaning": "n. 欺诈；骗子",
+  "example": "Phone fraud tricks many elderly people."
+ },
+ {
+  "word": "frenzy",
+  "meaning": "n. 狂乱；疯狂",
+  "example": "Shopping frenzy hits the mall each December."
+ },
+ {
+  "word": "friction",
+  "meaning": "n. 摩擦；不和",
+  "example": "Oil reduces friction in the engine."
+ },
+ {
+  "word": "fringe",
+  "meaning": "n. 边缘；流苏",
+  "example": "They live on the fringe of the city."
+ },
+ {
+  "word": "frustrate",
+  "meaning": "v. 挫败；使沮丧",
+  "example": "Delays frustrate even patient people."
+ },
+ {
+  "word": "furious",
+  "meaning": "adj. 狂怒的；激烈的",
+  "example": "He was furious about the broken bike."
+ },
+ {
+  "word": "gasp",
+  "meaning": "v. 喘气 n. 喘息",
+  "example": "She gasped at the sudden noise."
+ },
+ {
+  "word": "gauge",
+  "meaning": "v. 估计 n. 计量器",
+  "example": "It is hard to gauge his real intention."
+ },
+ {
+  "word": "generalize",
+  "meaning": "v. 概括；推广",
+  "example": "Don't generalize from one small sample."
+ },
+ {
+  "word": "genetic",
+  "meaning": "adj. 遗传的；基因的",
+  "example": "Height is partly a genetic trait."
+ },
+ {
+  "word": "genuine",
+  "meaning": "adj. 真诚的；真正的",
+  "example": "She showed genuine concern for us."
+ },
+ {
+  "word": "germ",
+  "meaning": "n. 细菌；萌芽",
+  "example": "Wash hands to remove germs."
+ },
+ {
+  "word": "glide",
+  "meaning": "v. 滑行；滑翔",
+  "example": "Swans glide across the calm lake."
+ },
+ {
+  "word": "gloomy",
+  "meaning": "adj. 阴暗的；忧郁的",
+  "example": "The weather looks gloomy today."
+ },
+ {
+  "word": "gorgeous",
+  "meaning": "adj. 华丽的；极好的",
+  "example": "The garden looks gorgeous in May."
+ },
+ {
+  "word": "gossip",
+  "meaning": "n. 闲话 v. 说闲话",
+  "example": "Office gossip spreads quickly."
+ },
+ {
+  "word": "grief",
+  "meaning": "n. 悲痛；忧伤",
+  "example": "Time softens the pain of grief."
+ },
+ {
+  "word": "grim",
+  "meaning": "adj. 严峻的；冷酷的",
+  "example": "The exam results paint a grim picture."
+ },
+ {
+  "word": "grope",
+  "meaning": "v. 摸索；探索",
+  "example": "He groped for the light switch."
+ },
+ {
+  "word": "grove",
+  "meaning": "n. 小树林；果园",
+  "example": "They picnicked in a quiet grove."
+ },
+ {
+  "word": "guilt",
+  "meaning": "n. 罪过；内疚",
+  "example": "Guilt kept him awake at night."
+ },
+ {
+  "word": "handicap",
+  "meaning": "n. 障碍 v. 妨碍",
+  "example": "Poor eyesight is a real handicap."
+ },
+ {
+  "word": "harass",
+  "meaning": "v. 骚扰；不断打扰",
+  "example": "Laws forbid anyone to harass workers."
+ },
+ {
+  "word": "harmony",
+  "meaning": "n. 和谐；融洽",
+  "example": "The colors are in perfect harmony."
+ },
+ {
+  "word": "haste",
+  "meaning": "n. 匆忙；急忙",
+  "example": "More haste, less speed."
+ },
+ {
+  "word": "hatch",
+  "meaning": "v. 孵化；策划",
+  "example": "The eggs hatch in about two weeks."
+ },
+ {
+  "word": "haunt",
+  "meaning": "v. 萦绕；常去",
+  "example": "The old song haunts me still."
+ },
+ {
+  "word": "heave",
+  "meaning": "v. 举起；拖",
+  "example": "They heaved the box onto the truck."
+ },
+ {
+  "word": "hedge",
+  "meaning": "n. 树篱 v. 规避",
+  "example": "A hedge surrounds the small garden."
+ },
+ {
+  "word": "heir",
+  "meaning": "n. 继承人；后嗣",
+  "example": "The prince is the heir to the throne."
+ },
+ {
+  "word": "herb",
+  "meaning": "n. 草药；香草",
+  "example": "The soup is seasoned with fresh herbs."
+ },
+ {
+  "word": "heritage",
+  "meaning": "n. 遗产；传统",
+  "example": "The old town is a world heritage site."
+ },
+ {
+  "word": "hierarchy",
+  "meaning": "n. 等级制度；层级",
+  "example": "Messages move up the hierarchy slowly."
+ },
+ {
+  "word": "highlight",
+  "meaning": "v. 强调 n. 亮点",
+  "example": "The report highlights three key risks."
+ },
+ {
+  "word": "hinder",
+  "meaning": "v. 阻碍；妨碍",
+  "example": "Rain hindered the rescue work."
+ },
+ {
+  "word": "hoist",
+  "meaning": "v. 升起；吊起",
+  "example": "They hoisted the flag at sunrise."
+ },
+ {
+  "word": "homogeneous",
+  "meaning": "adj. 同种的；均匀的",
+  "example": "The class is not homogeneous in ability."
+ },
+ {
+  "word": "hostile",
+  "meaning": "adj. 敌对的；不友好的",
+  "example": "The review was openly hostile."
+ },
+ {
+  "word": "humid",
+  "meaning": "adj. 潮湿的；湿热的",
+  "example": "July is hot and humid here."
+ },
+ {
+  "word": "humidity",
+  "meaning": "n. 湿度；湿气",
+  "example": "High humidity makes heat feel worse."
+ },
+ {
+  "word": "hypothesis",
+  "meaning": "n. 假设；假说",
+  "example": "The experiment tests our hypothesis."
+ },
+ {
+  "word": "identical",
+  "meaning": "adj. 完全相同的",
+  "example": "The twins wear identical dresses."
+ },
+ {
+  "word": "ideology",
+  "meaning": "n. 意识形态；思想体系",
+  "example": "The party's ideology shaped the reform."
+ },
+ {
+  "word": "ignite",
+  "meaning": "v. 点燃；激起",
+  "example": "One spark ignited the dry grass."
+ },
+ {
+  "word": "illuminate",
+  "meaning": "v. 照亮；阐明",
+  "example": "Lanterns illuminate the night market."
+ },
+ {
+  "word": "illusion",
+  "meaning": "n. 幻觉；错觉",
+  "example": "The mirror creates an illusion of space."
+ },
+ {
+  "word": "immerse",
+  "meaning": "v. 沉浸；使浸入",
+  "example": "She immersed herself in French study."
+ },
+ {
+  "word": "immune",
+  "meaning": "adj. 免疫的；不受影响的",
+  "example": "Vaccines make you immune to the virus."
+ },
+ {
+  "word": "impair",
+  "meaning": "v. 损害；削弱",
+  "example": "Loud music impairs your hearing."
+ },
+ {
+  "word": "impartial",
+  "meaning": "adj. 公正的；不偏不倚的",
+  "example": "Judges must remain impartial."
+ },
+ {
+  "word": "imperative",
+  "meaning": "adj. 必要的；命令的",
+  "example": "It is imperative to act quickly."
+ },
+ {
+  "word": "implement",
+  "meaning": "v. 实施；执行",
+  "example": "The school implemented the new rules."
+ },
+ {
+  "word": "implicit",
+  "meaning": "adj. 含蓄的；暗含的",
+  "example": "There was an implicit warning in his words."
+ },
+ {
+  "word": "impose",
+  "meaning": "v. 强加；征税",
+  "example": "The state imposed a new fuel tax."
+ },
+ {
+  "word": "impulse",
+  "meaning": "n. 冲动；脉冲",
+  "example": "She bought the dress on impulse."
+ },
+ {
+  "word": "incidence",
+  "meaning": "n. 发生率",
+  "example": "The incidence of flu rises in winter."
+ },
+ {
+  "word": "incline",
+  "meaning": "v. 倾向 n. 斜坡",
+  "example": "I incline to accept the offer."
+ },
+ {
+  "word": "inclusive",
+  "meaning": "adj. 包容的；包含的",
+  "example": "The price is inclusive of taxes."
+ },
+ {
+  "word": "incorporate",
+  "meaning": "v. 包含；合并",
+  "example": "The design incorporates local patterns."
+ },
+ {
+  "word": "incredible",
+  "meaning": "adj. 难以置信的；惊人的",
+  "example": "The show was absolutely incredible."
+ },
+ {
+  "word": "incur",
+  "meaning": "v. 招致；承担",
+  "example": "Late payment incurs a small fine."
+ },
+ {
+  "word": "indifferent",
+  "meaning": "adj. 冷漠的；无关紧要的",
+  "example": "He seemed indifferent to the result."
+ },
+ {
+  "word": "indignation",
+  "meaning": "n. 愤怒；义愤",
+  "example": "The unfair rule caused indignation."
+ },
+ {
+  "word": "induce",
+  "meaning": "v. 引诱；引起",
+  "example": "The drug induces sleep quickly."
+ },
+ {
+  "word": "indulge",
+  "meaning": "v. 放纵；沉溺",
+  "example": "Occasionally indulge in a sweet dessert."
+ },
+ {
+  "word": "inevitable",
+  "meaning": "adj. 不可避免的",
+  "example": "Change is inevitable in every industry."
+ },
+ {
+  "word": "infect",
+  "meaning": "v. 感染；传染",
+  "example": "One cough can infect the whole class."
+ },
+ {
+  "word": "inflation",
+  "meaning": "n. 通货膨胀",
+  "example": "Inflation raised food prices this year."
+ },
+ {
+  "word": "infrastructure",
+  "meaning": "n. 基础设施",
+  "example": "The city invests in infrastructure yearly."
+ },
+ {
+  "word": "ingenious",
+  "meaning": "adj. 巧妙的；有创意的",
+  "example": "She found an ingenious shortcut."
+ },
+ {
+  "word": "inhabit",
+  "meaning": "v. 栖息；居住于",
+  "example": "Rare birds inhabit the quiet island."
+ },
+ {
+  "word": "inherent",
+  "meaning": "adj. 固有的；内在的",
+  "example": "Risk is inherent in any investment."
+ },
+ {
+  "word": "inherit",
+  "meaning": "v. 继承；遗传",
+  "example": "She inherited the farm from her uncle."
+ },
+ {
+  "word": "inhibit",
+  "meaning": "v. 抑制；阻止",
+  "example": "Fear inhibits clear thinking."
+ },
+ {
+  "word": "initiate",
+  "meaning": "v. 开始；发起",
+  "example": "The club initiated a reading program."
+ },
+ {
+  "word": "inject",
+  "meaning": "v. 注射；注入",
+  "example": "The doctor injected the vaccine."
+ },
+ {
+  "word": "innovation",
+  "meaning": "n. 创新；革新",
+  "example": "Innovation drives the tech industry."
+ },
+ {
+  "word": "insert",
+  "meaning": "v. 插入；嵌入",
+  "example": "Insert the coin into the slot."
+ },
+ {
+  "word": "insight",
+  "meaning": "n. 洞察力；深刻见解",
+  "example": "The book offers insight into habits."
+ },
+ {
+  "word": "insist",
+  "meaning": "v. 坚持；坚决要求",
+  "example": "She insisted on paying the bill."
+ },
+ {
+  "word": "inspect",
+  "meaning": "v. 检查；视察",
+  "example": "Officials inspect the factory monthly."
+ },
+ {
+  "word": "instinct",
+  "meaning": "n. 本能；直觉",
+  "example": "Birds build nests by instinct."
+ },
+ {
+  "word": "institute",
+  "meaning": "n. 学院；研究所",
+  "example": "He teaches at an art institute."
+ },
+ {
+  "word": "insulate",
+  "meaning": "v. 隔离；使绝缘",
+  "example": "Thick walls insulate the house from noise."
+ },
+ {
+  "word": "intact",
+  "meaning": "adj. 完好无损的",
+  "example": "The ancient vase survived intact."
+ },
+ {
+  "word": "integral",
+  "meaning": "adj. 不可缺少的；完整的",
+  "example": "Practice is integral to learning."
+ },
+ {
+  "word": "integrate",
+  "meaning": "v. 融合；整合",
+  "example": "The app integrates maps and chat."
+ },
+ {
+  "word": "integrity",
+  "meaning": "n. 正直；完整",
+  "example": "A judge needs personal integrity."
+ },
+ {
+  "word": "intellect",
+  "meaning": "n. 智力；才智",
+  "example": "She combines talent with intellect."
+ },
+ {
+  "word": "intensify",
+  "meaning": "v. 加强；加剧",
+  "example": "The storm intensified overnight."
+ },
+ {
+  "word": "intent",
+  "meaning": "n. 意图 adj. 专心的",
+  "example": "He was intent on finishing the race."
+ },
+ {
+  "word": "interfere",
+  "meaning": "v. 干涉；干扰",
+  "example": "Do not interfere with the experiment."
+ },
+ {
+  "word": "interim",
+  "meaning": "adj. 临时的 n. 过渡期",
+  "example": "An interim report came out in June."
+ },
+ {
+  "word": "intermittent",
+  "meaning": "adj. 间歇的；断断续续的",
+  "example": "Intermittent rain lasted all week."
+ },
+ {
+  "word": "interpret",
+  "meaning": "v. 解释；口译",
+  "example": "Poems allow different interpretations."
+ },
+ {
+  "word": "intervene",
+  "meaning": "v. 干预；调解",
+  "example": "The teacher intervened to stop the quarrel."
+ },
+ {
+  "word": "intimate",
+  "meaning": "adj. 亲密的；私人的",
+  "example": "They are intimate friends since childhood."
+ },
+ {
+  "word": "intricate",
+  "meaning": "adj. 错综复杂的",
+  "example": "The watch has an intricate design."
+ },
+ {
+  "word": "intrude",
+  "meaning": "v. 侵入；打扰",
+  "example": "Sorry to intrude on your meeting."
+ },
+ {
+  "word": "intuition",
+  "meaning": "n. 直觉；直觉力",
+  "example": "Trust your intuition when choosing."
+ },
+ {
+  "word": "invalid",
+  "meaning": "adj. 无效的 n. 病弱者",
+  "example": "The ticket is invalid without a stamp."
+ },
+ {
+  "word": "invaluable",
+  "meaning": "adj. 极宝贵的；无价的",
+  "example": "Her advice proved invaluable."
+ },
+ {
+  "word": "invariable",
+  "meaning": "adj. 不变的；恒定的",
+  "example": "His routine is almost invariable."
+ },
+ {
+  "word": "inventory",
+  "meaning": "n. 存货清单；清单",
+  "example": "The store checks its inventory monthly."
+ },
+ {
+  "word": "invert",
+  "meaning": "v. 倒置；颠倒",
+  "example": "Invert the glass over the candle."
+ },
+ {
+  "word": "irritate",
+  "meaning": "v. 激怒；使不适",
+  "example": "Smoke irritates my eyes."
+ },
+ {
+  "word": "isolate",
+  "meaning": "v. 隔离；使孤立",
+  "example": "They isolated the sick cat."
+ },
+ {
+  "word": "jargon",
+  "meaning": "n. 行话；术语",
+  "example": "Legal jargon confuses ordinary readers."
+ },
+ {
+  "word": "jealous",
+  "meaning": "adj. 嫉妒的；羡慕的",
+  "example": "He was jealous of his brother's success."
+ },
+ {
+  "word": "jerk",
+  "meaning": "n. 急拉 v. 猛拉",
+  "example": "The bus stopped with a jerk."
+ },
+ {
+  "word": "jog",
+  "meaning": "v. 慢跑；轻推",
+  "example": "I jog around the lake every morning."
+ },
+ {
+  "word": "jolly",
+  "meaning": "adj. 快活的；兴高采烈的",
+  "example": "Our jolly guide kept everyone laughing."
+ },
+ {
+  "word": "judicial",
+  "meaning": "adj. 司法的；法庭的",
+  "example": "The judicial system protects rights."
+ },
+ {
+  "word": "junction",
+  "meaning": "n. 交叉路口；连接点",
+  "example": "Traffic lights control the busy junction."
+ },
+ {
+  "word": "jury",
+  "meaning": "n. 陪审团；评委会",
+  "example": "The jury reached a fair verdict."
+ },
+ {
+  "word": "justify",
+  "meaning": "v. 证明…正当；辩护",
+  "example": "The end does not justify the means."
+ },
+ {
+  "word": "juvenile",
+  "meaning": "adj. 少年的；幼稚的",
+  "example": "Juvenile crime dropped this year."
+ },
+ {
+  "word": "kidnap",
+  "meaning": "v. 绑架；劫持",
+  "example": "The film is about a kidnap plot."
+ },
+ {
+  "word": "kindle",
+  "meaning": "v. 点燃；激起",
+  "example": "A good book kindles the love of reading."
+ },
+ {
+  "word": "kinetic",
+  "meaning": "adj. 运动的；动力学的",
+  "example": "Moving cars have kinetic energy."
+ },
+ {
+  "word": "label",
+  "meaning": "n. 标签 v. 贴标签",
+  "example": "Read the label before taking the medicine."
+ },
+ {
+  "word": "lace",
+  "meaning": "n. 花边；鞋带",
+  "example": "She tied the shoe laces tightly."
+ },
+ {
+  "word": "lag",
+  "meaning": "v. 落后；延迟",
+  "example": "Sales lag behind last year's figures."
+ },
+ {
+  "word": "lament",
+  "meaning": "v./n. 哀叹；惋惜",
+  "example": "Fans lament the loss of the old stadium."
+ },
+ {
+  "word": "landscape",
+  "meaning": "n. 风景；景观",
+  "example": "The mountain landscape attracts painters."
+ },
+ {
+  "word": "latent",
+  "meaning": "adj. 潜在的；潜伏的",
+  "example": "He has a latent talent for music."
+ },
+ {
+  "word": "latitude",
+  "meaning": "n. 纬度；自由度",
+  "example": "Tropical zones lie near the equator's latitude."
+ },
+ {
+  "word": "laundry",
+  "meaning": "n. 洗衣店；待洗衣物",
+  "example": "The laundry returns clothes on Friday."
+ },
+ {
+  "word": "lawsuit",
+  "meaning": "n. 诉讼；官司",
+  "example": "The company faced a lawsuit over safety."
+ },
+ {
+  "word": "layoff",
+  "meaning": "n. 裁员；解雇",
+  "example": "The factory announced ten layoffs."
+ },
+ {
+  "word": "leaflet",
+  "meaning": "n. 传单；小册子",
+  "example": "Volunteers handed out leaflets downtown."
+ },
+ {
+  "word": "legend",
+  "meaning": "n. 传说；传奇人物",
+  "example": "The lake is the home of an old legend."
+ },
+ {
+  "word": "legislation",
+  "meaning": "n. 立法；法规",
+  "example": "New legislation protects online privacy."
+ },
+ {
+  "word": "legitimate",
+  "meaning": "adj. 合法的；正当的",
+  "example": "He raised a legitimate concern."
+ },
+ {
+  "word": "leisure",
+  "meaning": "n. 闲暇；休闲",
+  "example": "Reading is her favorite leisure activity."
+ },
+ {
+  "word": "liable",
+  "meaning": "adj. 易于…的；有责任的",
+  "example": "Drivers are liable for traffic fines."
+ },
+ {
+  "word": "liberal",
+  "meaning": "adj. 开明的；自由主义的",
+  "example": "The school takes a liberal approach."
+ },
+ {
+  "word": "license",
+  "meaning": "n. 执照；许可证",
+  "example": "You need a license to drive here."
+ },
+ {
+  "word": "likewise",
+  "meaning": "adv. 同样地；也",
+  "example": "She speaks French and German likewise."
+ },
+ {
+  "word": "limb",
+  "meaning": "n. 肢体；树枝",
+  "example": "The cat stretched its front limbs."
+ },
+ {
+  "word": "linger",
+  "meaning": "v. 徘徊；逗留",
+  "example": "The smell of coffee lingers in the hall."
+ },
+ {
+  "word": "literal",
+  "meaning": "adj. 字面的；逐字的",
+  "example": "The literal meaning differs from the idiom."
+ },
+ {
+  "word": "lofty",
+  "meaning": "adj. 崇高的；高耸的",
+  "example": "She has lofty goals for the future."
+ },
+ {
+  "word": "longevity",
+  "meaning": "n. 长寿；寿命",
+  "example": "Good sleep supports longevity."
+ },
+ {
+  "word": "loom",
+  "meaning": "v. 隐现 n. 织布机",
+  "example": "Dark clouds loomed over the harbor."
+ },
+ {
+  "word": "lubricate",
+  "meaning": "v. 润滑；加润滑油",
+  "example": "Lubricate the hinge to stop the squeak."
+ },
+ {
+  "word": "luminous",
+  "meaning": "adj. 发光的；夜明的",
+  "example": "The watch has luminous hands."
+ },
+ {
+  "word": "lure",
+  "meaning": "v. 引诱 n. 诱惑力",
+  "example": "Free gifts lure many customers."
+ },
+ {
+  "word": "magnify",
+  "meaning": "v. 放大；夸大",
+  "example": "The lens magnifies the tiny print."
+ },
+ {
+  "word": "magnitude",
+  "meaning": "n. 巨大；震级",
+  "example": "They underestimated the magnitude of the task."
+ },
+ {
+  "word": "maintain",
+  "meaning": "v. 维持；保养",
+  "example": "Regular checks maintain the machine well."
+ },
+ {
+  "word": "majesty",
+  "meaning": "n. 雄伟；威严",
+  "example": "The mountains rise in silent majesty."
+ },
+ {
+  "word": "malfunction",
+  "meaning": "n./v. 故障；失灵",
+  "example": "A sensor malfunction delayed the launch."
+ },
+ {
+  "word": "maneuver",
+  "meaning": "v. 演习；操纵 n. 策略",
+  "example": "The pilot maneuvered through the storm."
+ },
+ {
+  "word": "manifest",
+  "meaning": "v. 表明 adj. 明显的",
+  "example": "Stress manifests as poor sleep."
+ },
+ {
+  "word": "manipulate",
+  "meaning": "v. 操纵；控制",
+  "example": "Ads manipulate buyers' choices subtly."
+ },
+ {
+  "word": "manuscript",
+  "meaning": "n. 手稿；原稿",
+  "example": "The library keeps the author's manuscript."
+ },
+ {
+  "word": "marble",
+  "meaning": "n. 大理石；弹珠",
+  "example": "The lobby floor is polished marble."
+ },
+ {
+  "word": "marginal",
+  "meaning": "adj. 边缘的；微小的",
+  "example": "The change had only a marginal effect."
+ },
+ {
+  "word": "marshal",
+  "meaning": "v. 整理 n. 元帅",
+  "example": "She marshaled her arguments clearly."
+ },
+ {
+  "word": "medieval",
+  "meaning": "adj. 中世纪的",
+  "example": "The medieval castle overlooks the town."
+ },
+ {
+  "word": "meditate",
+  "meaning": "v. 沉思；冥想",
+  "example": "He meditates for ten minutes daily."
+ },
+ {
+  "word": "melody",
+  "meaning": "n. 旋律；曲调",
+  "example": "The melody stayed in my head all day."
+ },
+ {
+  "word": "memorize",
+  "meaning": "v. 记忆；背诵",
+  "example": "Memorize ten new words every day."
+ },
+ {
+  "word": "menace",
+  "meaning": "n. 威胁 v. 威胁",
+  "example": "Drunk drivers are a menace to all."
+ },
+ {
+  "word": "merge",
+  "meaning": "v. 合并；融合",
+  "example": "The two banks merged last autumn."
+ },
+ {
+  "word": "merit",
+  "meaning": "n. 优点；价值",
+  "example": "The plan has both merits and risks."
+ },
+ {
+  "word": "metaphor",
+  "meaning": "n. 隐喻；比喻",
+  "example": "Life is a journey is a common metaphor."
+ },
+ {
+  "word": "microbe",
+  "meaning": "n. 微生物；细菌",
+  "example": "Microbes live in every corner of earth."
+ },
+ {
+  "word": "midst",
+  "meaning": "n. 中部；中间",
+  "example": "The garden sits in the midst of tall trees."
+ },
+ {
+  "word": "migrate",
+  "meaning": "v. 迁移；移居",
+  "example": "Birds migrate south before winter."
+ },
+ {
+  "word": "militant",
+  "meaning": "adj. 激进的 n. 激进分子",
+  "example": "The group took a militant stance."
+ },
+ {
+  "word": "mingle",
+  "meaning": "v. 混合；交往",
+  "example": "Guests mingled freely at the party."
+ },
+ {
+  "word": "miniature",
+  "meaning": "adj. 微小的 n. 缩影",
+  "example": "The child owns a miniature train set."
+ },
+ {
+  "word": "minimize",
+  "meaning": "v. 最小化；尽量减少",
+  "example": "Plan ahead to minimize risks."
+ },
+ {
+  "word": "misery",
+  "meaning": "n. 痛苦；悲惨",
+  "example": "The war brought misery to millions."
+ },
+ {
+  "word": "mislead",
+  "meaning": "v. 误导；使误解",
+  "example": "False ads mislead many shoppers."
+ },
+ {
+  "word": "moan",
+  "meaning": "v./n. 呻吟；抱怨",
+  "example": "He moaned about the heavy rain."
+ },
+ {
+  "word": "mobilize",
+  "meaning": "v. 动员；调动",
+  "example": "The city mobilized doctors overnight."
+ },
+ {
+  "word": "mock",
+  "meaning": "v. 嘲笑；模拟",
+  "example": "They mock his old-fashioned clothes."
+ },
+ {
+  "word": "momentum",
+  "meaning": "n. 势头；动量",
+  "example": "The campaign gained momentum quickly."
+ },
+ {
+  "word": "monarch",
+  "meaning": "n. 君主；帝王",
+  "example": "The monarch ruled for forty years."
+ },
+ {
+  "word": "monetary",
+  "meaning": "adj. 货币的；金融的",
+  "example": "The bank tightened its monetary policy."
+ },
+ {
+  "word": "monopoly",
+  "meaning": "n. 垄断；专利",
+  "example": "No single company should hold a monopoly."
+ },
+ {
+  "word": "mortgage",
+  "meaning": "n. 抵押贷款 v. 抵押",
+  "example": "They took a mortgage to buy the flat."
+ },
+ {
+  "word": "motivate",
+  "meaning": "v. 激励；激发",
+  "example": "Small wins motivate the whole team."
+ },
+ {
+  "word": "mourn",
+  "meaning": "v. 哀悼；忧伤",
+  "example": "Fans mourned the passing of the singer."
+ },
+ {
+  "word": "municipal",
+  "meaning": "adj. 市政的；地方的",
+  "example": "The municipal library opens at nine."
+ },
+ {
+  "word": "mutual",
+  "meaning": "adj. 相互的；共同的",
+  "example": "The deal benefits both by mutual agreement."
+ },
+ {
+  "word": "naive",
+  "meaning": "adj. 天真的；幼稚的",
+  "example": "The naive plan ignored real costs."
+ },
+ {
+  "word": "navigate",
+  "meaning": "v. 导航；驾驶",
+  "example": "The app navigates you to the gate."
+ },
+ {
+  "word": "necessity",
+  "meaning": "n. 必需品；必要性",
+  "example": "Water is a necessity of life."
+ },
+ {
+  "word": "negligible",
+  "meaning": "adj. 微不足道的",
+  "example": "The difference is negligible in practice."
+ },
+ {
+  "word": "negotiate",
+  "meaning": "v. 谈判；协商",
+  "example": "The two sides negotiated a fair price."
+ },
+ {
+  "word": "nominal",
+  "meaning": "adj. 名义上的；微不足道的",
+  "example": "He is the nominal head of the team."
+ },
+ {
+  "word": "nominate",
+  "meaning": "v. 提名；任命",
+  "example": "The class nominated her as monitor."
+ },
+ {
+  "word": "notable",
+  "meaning": "adj. 显著的；著名的",
+  "example": "The year saw notable progress in sales."
+ },
+ {
+  "word": "notify",
+  "meaning": "v. 通知；报告",
+  "example": "Please notify us of any delay."
+ },
+ {
+  "word": "notion",
+  "meaning": "n. 概念；观念",
+  "example": "The notion of luck varies by culture."
+ },
+ {
+  "word": "nourish",
+  "meaning": "v. 滋养；培育",
+  "example": "Breakfast nourishes both body and mind."
+ },
+ {
+  "word": "novelty",
+  "meaning": "n. 新奇；新颖",
+  "example": "The novelty of the toy soon wore off."
+ },
+ {
+  "word": "nuclear",
+  "meaning": "adj. 核的；原子核的",
+  "example": "The country reduced nuclear weapons."
+ },
+ {
+  "word": "numerous",
+  "meaning": "adj. 众多的；许多的",
+  "example": "Numerous visitors attended the fair."
+ },
+ {
+  "word": "nurture",
+  "meaning": "v. 培养；养育",
+  "example": "Teachers nurture students' creativity."
+ },
+ {
+  "word": "nutrient",
+  "meaning": "n. 营养物质",
+  "example": "Vegetables are rich in nutrients."
+ },
+ {
+  "word": "obedient",
+  "meaning": "adj. 顺从的；听话的",
+  "example": "The obedient dog followed every command."
+ },
+ {
+  "word": "obligation",
+  "meaning": "n. 义务；责任",
+  "example": "Parents have an obligation to guide children."
+ },
+ {
+  "word": "obscure",
+  "meaning": "adj. 模糊的；晦涩的",
+  "example": "The meaning remains obscure to me."
+ },
+ {
+  "word": "obsession",
+  "meaning": "n. 痴迷；困扰",
+  "example": "His obsession with details slows him down."
+ },
+ {
+  "word": "obstacle",
+  "meaning": "n. 障碍；阻碍",
+  "example": "Fear is the biggest obstacle to success."
+ },
+ {
+  "word": "occurrence",
+  "meaning": "n. 发生；事件",
+  "example": "Power cuts are a rare occurrence here."
+ },
+ {
+  "word": "odds",
+  "meaning": "n. 几率；可能性",
+  "example": "The odds of winning are quite low."
+ },
+ {
+  "word": "offset",
+  "meaning": "v. 抵消；补偿",
+  "example": "Savings offset the rising costs."
+ },
+ {
+  "word": "omen",
+  "meaning": "n. 预兆；征兆",
+  "example": "A rainbow was seen as a good omen."
+ },
+ {
+  "word": "omit",
+  "meaning": "v. 省略；遗漏",
+  "example": "Omit unnecessary words in the summary."
+ },
+ {
+  "word": "onset",
+  "meaning": "n. 开始；发作",
+  "example": "The onset of winter brings early sunsets."
+ },
+ {
+  "word": "opaque",
+  "meaning": "adj. 不透明的；难懂的",
+  "example": "The jar is made of opaque glass."
+ },
+ {
+  "word": "oppress",
+  "meaning": "v. 压迫；压抑",
+  "example": "The hot weather oppresses everyone."
+ },
+ {
+  "word": "opt",
+  "meaning": "v. 选择；挑选",
+  "example": "More students opt for online courses."
+ },
+ {
+  "word": "optimum",
+  "meaning": "adj. 最佳的；最优的",
+  "example": "Exercise in the optimum temperature feels best."
+ },
+ {
+  "word": "orchard",
+  "meaning": "n. 果园",
+  "example": "We picked apples in the orchard."
+ },
+ {
+  "word": "orient",
+  "meaning": "v. 朝向；使适应",
+  "example": "New students orient themselves to campus life."
+ },
+ {
+  "word": "ornament",
+  "meaning": "n. 装饰品 v. 装饰",
+  "example": "A red ribbon ornaments the gift box."
+ },
+ {
+  "word": "outbreak",
+  "meaning": "n. 爆发；突然发生",
+  "example": "The outbreak of flu closed the school."
+ },
+ {
+  "word": "outfit",
+  "meaning": "n. 服装；全套装备",
+  "example": "She wore a bright new outfit."
+ },
+ {
+  "word": "outlet",
+  "meaning": "n. 出口；插座；销售点",
+  "example": "The factory store is an official outlet."
+ },
+ {
+  "word": "outrage",
+  "meaning": "n. 愤怒 v. 激怒",
+  "example": "The unfair decision caused public outrage."
+ },
+ {
+  "word": "outset",
+  "meaning": "n. 开始；开端",
+  "example": "From the outset, the plan looked risky."
+ },
+ {
+  "word": "overall",
+  "meaning": "adj. 全面的 adv. 总体上",
+  "example": "The overall result was positive."
+ },
+ {
+  "word": "overcome",
+  "meaning": "v. 克服；战胜",
+  "example": "She overcame her fear of water."
+ },
+ {
+  "word": "overflow",
+  "meaning": "v. 溢出；充满",
+  "example": "The river overflowed after the storm."
+ },
+ {
+  "word": "overlook",
+  "meaning": "v. 忽视；俯瞰",
+  "example": "Do not overlook small details."
+ },
+ {
+  "word": "overseas",
+  "meaning": "adj. 海外的 adv. 在海外",
+  "example": "The company sells products overseas."
+ },
+ {
+  "word": "overtake",
+  "meaning": "v. 超过；赶上",
+  "example": "The red car overtook the truck."
+ },
+ {
+  "word": "overwhelm",
+  "meaning": "v. 压倒；使不知所措",
+  "example": "Kindness overwhelmed the new student."
+ },
+ {
+  "word": "painstaking",
+  "meaning": "adj. 辛勤的；苦干的",
+  "example": "Restoring the mural was painstaking work."
+ },
+ {
+  "word": "panel",
+  "meaning": "n. 专家组；面板",
+  "example": "A panel of judges scores each speech."
+ },
+ {
+  "word": "panic",
+  "meaning": "n./v. 恐慌；惊慌",
+  "example": "Stay calm and never panic in an emergency."
+ },
+ {
+  "word": "paradox",
+  "meaning": "n. 悖论；自相矛盾",
+  "example": "More choices can mean less joy — a true paradox."
+ },
+ {
+  "word": "parallel",
+  "meaning": "adj. 平行的 n. 相似之处",
+  "example": "The two roads run parallel to each other."
+ },
+ {
+  "word": "paralyze",
+  "meaning": "v. 使瘫痪；使麻痹",
+  "example": "The snow paralyzed traffic for hours."
+ },
+ {
+  "word": "partial",
+  "meaning": "adj. 部分的；偏袒的",
+  "example": "I only have partial notes from the lecture."
+ },
+ {
+  "word": "particle",
+  "meaning": "n. 粒子；颗粒",
+  "example": "Dust particles floated in the sunbeam."
+ },
+ {
+  "word": "passion",
+  "meaning": "n. 激情；热情",
+  "example": "She has a passion for astronomy."
+ },
+ {
+  "word": "pastime",
+  "meaning": "n. 消遣；娱乐",
+  "example": "Gardening is a relaxing pastime."
+ },
+ {
+  "word": "patent",
+  "meaning": "n. 专利 v. 取得专利",
+  "example": "The inventor patented the new engine."
+ },
+ {
+  "word": "pathetic",
+  "meaning": "adj. 可悲的；可怜的",
+  "example": "The excuses sounded truly pathetic."
+ },
+ {
+  "word": "patriotic",
+  "meaning": "adj. 爱国的",
+  "example": "The parade has a patriotic atmosphere."
+ },
+ {
+  "word": "patrol",
+  "meaning": "v./n. 巡逻；巡查",
+  "example": "Guards patrol the campus at night."
+ },
+ {
+  "word": "patron",
+  "meaning": "n. 赞助人；老顾客",
+  "example": "The library owes much to its patron."
+ },
+ {
+  "word": "pave",
+  "meaning": "v. 铺路；为…铺平道路",
+  "example": "Practice paves the way for success."
+ },
+ {
+  "word": "peak",
+  "meaning": "n. 顶峰 adj. 最高的",
+  "example": "Sales reach their peak in December."
+ },
+ {
+  "word": "peculiar",
+  "meaning": "adj. 奇怪的；特有的",
+  "example": "The house has a peculiar smell."
+ },
+ {
+  "word": "penalty",
+  "meaning": "n. 处罚；罚款",
+  "example": "Late payment carries a small penalty."
+ },
+ {
+  "word": "pendulum",
+  "meaning": "n. 钟摆；摇摆",
+  "example": "The pendulum swings side to side."
+ },
+ {
+  "word": "pension",
+  "meaning": "n. 养老金；抚恤金",
+  "example": "He retired and lives on a pension."
+ },
+ {
+  "word": "perceive",
+  "meaning": "v. 感知；认为",
+  "example": "People perceive color differently."
+ },
+ {
+  "word": "perish",
+  "meaning": "v. 死亡；毁灭",
+  "example": "Crops perish without enough rain."
+ },
+ {
+  "word": "permanent",
+  "meaning": "adj. 永久的；固定的",
+  "example": "She finally found a permanent job."
+ },
+ {
+  "word": "permeate",
+  "meaning": "v. 渗透；弥漫",
+  "example": "The smell of bread permeates the bakery."
+ },
+ {
+  "word": "perpetual",
+  "meaning": "adj. 永久的；持续的",
+  "example": "The machine needs perpetual care."
+ },
+ {
+  "word": "persevere",
+  "meaning": "v. 坚持；锲而不舍",
+  "example": "Persevere and success will come."
+ },
+ {
+  "word": "persist",
+  "meaning": "v. 坚持；持续",
+  "example": "The cold weather persists into April."
+ },
+ {
+  "word": "petition",
+  "meaning": "n. 请愿书 v. 请愿",
+  "example": "Students signed a petition for later buses."
+ },
+ {
+  "word": "petty",
+  "meaning": "adj. 琐碎的；小气的",
+  "example": "Do not argue over petty matters."
+ },
+ {
+  "word": "phenomenon",
+  "meaning": "n. 现象；非凡的人",
+  "example": "Rainbows are a natural optical phenomenon."
+ },
+ {
+  "word": "pilgrim",
+  "meaning": "n. 朝圣者；香客",
+  "example": "Pilgrims walked miles to the temple."
+ },
+ {
+  "word": "plausible",
+  "meaning": "adj. 貌似可信的",
+  "example": "His excuse sounds barely plausible."
+ },
+ {
+  "word": "pledge",
+  "meaning": "v./n. 保证；誓言",
+  "example": "They pledged support for the charity."
+ },
+ {
+  "word": "plunge",
+  "meaning": "v. 跳入；骤降",
+  "example": "Temperatures plunged below zero."
+ },
+ {
+  "word": "poise",
+  "meaning": "n. 镇定；优雅",
+  "example": "She answered with perfect poise."
+ },
+ {
+  "word": "pollute",
+  "meaning": "v. 污染；弄脏",
+  "example": "Factories pollute the nearby river."
+ },
+ {
+  "word": "ponder",
+  "meaning": "v. 思考；沉思",
+  "example": "He pondered the question all night."
+ },
+ {
+  "word": "portable",
+  "meaning": "adj. 便携的；手提的",
+  "example": "A portable fan helps in summer."
+ },
+ {
+  "word": "portray",
+  "meaning": "v. 描绘；扮演",
+  "example": "The film portrays city life honestly."
+ },
+ {
+  "word": "postulate",
+  "meaning": "v. 假定 n. 假设",
+  "example": "Scientists postulate that water existed on Mars."
+ },
+ {
+  "word": "practicable",
+  "meaning": "adj. 可实行的；实用的",
+  "example": "The shortcut is practicable in dry weather."
+ },
+ {
+  "word": "precede",
+  "meaning": "v. 先于；在…之前",
+  "example": "A short speech preceded the award."
+ },
+ {
+  "word": "predominant",
+  "meaning": "adj. 主要的；占优势的",
+  "example": "Blue is the predominant color in the flag."
+ },
+ {
+  "word": "preliminary",
+  "meaning": "adj. 初步的；预备的",
+  "example": "Preliminary results look encouraging."
+ },
+ {
+  "word": "premise",
+  "meaning": "n. 前提；房屋",
+  "example": "The argument rests on a false premise."
+ },
+ {
+  "word": "prescribe",
+  "meaning": "v. 开处方；规定",
+  "example": "The doctor prescribed rest and water."
+ },
+ {
+  "word": "prestige",
+  "meaning": "n. 声望；威望",
+  "example": "The university enjoys high prestige."
+ },
+ {
+  "word": "presume",
+  "meaning": "v. 推测；擅自",
+  "example": "I presume the meeting starts at nine."
+ },
+ {
+  "word": "prevail",
+  "meaning": "v. 盛行；获胜",
+  "example": "Justice will prevail in the end."
+ },
+ {
+  "word": "prevalent",
+  "meaning": "adj. 普遍的；流行的",
+  "example": "Smartphones are prevalent among teens."
+ },
+ {
+  "word": "prey",
+  "meaning": "n. 猎物 v. 捕食",
+  "example": "Owls hunt their prey at night."
+ },
+ {
+  "word": "priest",
+  "meaning": "n. 牧师；神父",
+  "example": "The priest blessed the new ship."
+ },
+ {
+  "word": "primary",
+  "meaning": "adj. 首要的；初级的",
+  "example": "Safety is our primary concern."
+ },
+ {
+  "word": "prime",
+  "meaning": "adj. 主要的 n. 全盛时期",
+  "example": "The athlete is at the prime of life."
+ },
+ {
+  "word": "primitive",
+  "meaning": "adj. 原始的；简陋的",
+  "example": "Primitive tools were made of stone."
+ },
+ {
+  "word": "principal",
+  "meaning": "adj. 主要的 n. 校长",
+  "example": "The principal reason is cost."
+ },
+ {
+  "word": "prior",
+  "meaning": "adj. 优先的；在先的",
+  "example": "No prior experience is required."
+ },
+ {
+  "word": "privilege",
+  "meaning": "n. 特权；荣幸",
+  "example": "Meeting her was a real privilege."
+ },
+ {
+  "word": "probe",
+  "meaning": "v. 探查 n. 探测器",
+  "example": "Scientists probe the deep ocean."
+ },
+ {
+  "word": "procedure",
+  "meaning": "n. 程序；手续",
+  "example": "Follow the safety procedure strictly."
+ },
+ {
+  "word": "proclaim",
+  "meaning": "v. 宣告；声明",
+  "example": "The mayor proclaimed a city holiday."
+ },
+ {
+  "word": "proficiency",
+  "meaning": "n. 熟练；精通",
+  "example": "Language proficiency grows with practice."
+ },
+ {
+  "word": "profile",
+  "meaning": "n. 侧影；简介",
+  "example": "Update your profile photo online."
+ },
+ {
+  "word": "profound",
+  "meaning": "adj. 深刻的；渊博的",
+  "example": "The book had a profound influence on me."
+ },
+ {
+  "word": "prohibit",
+  "meaning": "v. 禁止；阻止",
+  "example": "Rules prohibit smoking in elevators."
+ },
+ {
+  "word": "prolong",
+  "meaning": "v. 延长；拖延",
+  "example": "Do not prolong the meeting without reason."
+ },
+ {
+  "word": "prompt",
+  "meaning": "v. 促使 adj. 及时的",
+  "example": "The email prompted an immediate reply."
+ },
+ {
+  "word": "propel",
+  "meaning": "v. 推进；驱动",
+  "example": "Steam propelled the old train forward."
+ },
+ {
+  "word": "prophet",
+  "meaning": "n. 预言家；先知",
+  "example": "The prophet foretold a hard winter."
+ },
+ {
+  "word": "proportion",
+  "meaning": "n. 比例；部分",
+  "example": "A large proportion of students walk to school."
+ },
+ {
+  "word": "prospect",
+  "meaning": "n. 前景；可能性",
+  "example": "The job offers excellent career prospects."
+ },
+ {
+  "word": "prosper",
+  "meaning": "v. 繁荣；成功",
+  "example": "Small businesses prosper in the holiday season."
+ },
+ {
+  "word": "protein",
+  "meaning": "n. 蛋白质",
+  "example": "Eggs provide plenty of protein."
+ },
+ {
+  "word": "protest",
+  "meaning": "v./n. 抗议；反对",
+  "example": "Workers protested against the pay cut."
+ },
+ {
+  "word": "provided",
+  "meaning": "conj. 假如；以…为条件",
+  "example": "You may go, provided you finish homework."
+ },
+ {
+  "word": "provoke",
+  "meaning": "v. 激怒；引起",
+  "example": "His rude words provoked an argument."
+ },
+ {
+  "word": "punctual",
+  "meaning": "adj. 准时的；守时的",
+  "example": "Be punctual for the morning meeting."
+ },
+ {
+  "word": "pursuit",
+  "meaning": "n. 追求；追赶",
+  "example": "The pursuit of knowledge never ends."
+ },
+ {
+  "word": "qualitative",
+  "meaning": "adj. 定性的；性质上的",
+  "example": "The study includes qualitative interviews."
+ },
+ {
+  "word": "quantify",
+  "meaning": "v. 量化；定量",
+  "example": "It is hard to quantify happiness."
+ },
+ {
+  "word": "quarterly",
+  "meaning": "adj. 季度的 adv. 每季度",
+  "example": "The company issues quarterly reports."
+ },
+ {
+  "word": "queer",
+  "meaning": "adj. 奇怪的；不舒服的",
+  "example": "The clock stopped at a queer hour."
+ },
+ {
+  "word": "quench",
+  "meaning": "v. 解渴；扑灭",
+  "example": "Cold water quenches thirst fast."
+ },
+ {
+  "word": "quota",
+  "meaning": "n. 配额；限额",
+  "example": "The shop reached its monthly sales quota."
+ },
+ {
+  "word": "radical",
+  "meaning": "adj. 激进的；根本的",
+  "example": "The treatment brought radical improvement."
+ },
+ {
+  "word": "radius",
+  "meaning": "n. 半径；范围",
+  "example": "The shop delivers within a five-mile radius."
+ },
+ {
+  "word": "rally",
+  "meaning": "v. 集合；恢复 n. 集会",
+  "example": "Thousands attended the peace rally."
+ },
+ {
+  "word": "random",
+  "meaning": "adj. 随机的；任意的",
+  "example": "The app picks a random word daily."
+ },
+ {
+  "word": "ratify",
+  "meaning": "v. 批准；认可",
+  "example": "The senate ratified the treaty."
+ },
+ {
+  "word": "rational",
+  "meaning": "adj. 理性的；合理的",
+  "example": "Make a rational choice, not an emotional one."
+ },
+ {
+  "word": "recession",
+  "meaning": "n. 衰退；不景气",
+  "example": "The recession affected small shops badly."
+ },
+ {
+  "word": "recipe",
+  "meaning": "n. 食谱；方法",
+  "example": "Grandma's recipe makes the best soup."
+ },
+ {
+  "word": "recipient",
+  "meaning": "n. 接受者；收件人",
+  "example": "The recipient signed for the parcel."
+ },
+ {
+  "word": "reciprocal",
+  "meaning": "adj. 相互的；互惠的",
+  "example": "The two schools have a reciprocal exchange."
+ },
+ {
+  "word": "reckon",
+  "meaning": "v. 估计；认为",
+  "example": "I reckon the trip costs about 300 yuan."
+ },
+ {
+  "word": "reclaim",
+  "meaning": "v. 收回；开垦",
+  "example": "The city reclaimed land from the sea."
+ },
+ {
+  "word": "reconcile",
+  "meaning": "v. 调和；使一致",
+  "example": "How do you reconcile work and study?"
+ },
+ {
+  "word": "rectify",
+  "meaning": "v. 纠正；整顿",
+  "example": "We must rectify the error at once."
+ },
+ {
+  "word": "refine",
+  "meaning": "v. 精炼；改进",
+  "example": "Refine your essay after the first draft."
+ },
+ {
+  "word": "reflect",
+  "meaning": "v. 反射；反思",
+  "example": "The lake reflects the mountain clearly."
+ },
+ {
+  "word": "reform",
+  "meaning": "v./n. 改革；改良",
+  "example": "The school reformed its exam system."
+ },
+ {
+  "word": "refute",
+  "meaning": "v. 驳斥；反驳",
+  "example": "The data refutes the old theory."
+ },
+ {
+  "word": "regime",
+  "meaning": "n. 政权；制度",
+  "example": "A strict training regime improved her results."
+ },
+ {
+  "word": "reign",
+  "meaning": "n. 统治 v. 统治",
+  "example": "The queen's reign lasted decades."
+ },
+ {
+  "word": "reinforce",
+  "meaning": "v. 加强；增援",
+  "example": "Review reinforces what you learn in class."
+ },
+ {
+  "word": "rejoice",
+  "meaning": "v. 欣喜；高兴",
+  "example": "We rejoiced at the good news."
+ },
+ {
+  "word": "release",
+  "meaning": "v. 释放；发行",
+  "example": "The band releases a new album in May."
+ },
+ {
+  "word": "relevant",
+  "meaning": "adj. 相关的；切题的",
+  "example": "Keep your answer relevant to the question."
+ },
+ {
+  "word": "reliable",
+  "meaning": "adj. 可靠的；可信赖的",
+  "example": "He is a reliable friend in need."
+ },
+ {
+  "word": "relieve",
+  "meaning": "v. 缓解；减轻",
+  "example": "A warm bath relieves tired muscles."
+ },
+ {
+  "word": "relish",
+  "meaning": "v. 享受 n. 乐趣",
+  "example": "She relishes every challenge."
+ },
+ {
+  "word": "remainder",
+  "meaning": "n. 剩余部分",
+  "example": "The remainder of the cake is in the fridge."
+ },
+ {
+  "word": "remedy",
+  "meaning": "n. 补救；药物",
+  "example": "Honey is a traditional cold remedy."
+ },
+ {
+  "word": "remnant",
+  "meaning": "n. 残余；剩余",
+  "example": "Remnants of the wall still stand."
+ },
+ {
+  "word": "render",
+  "meaning": "v. 使成为；提供",
+  "example": "The storm rendered the road useless."
+ },
+ {
+  "word": "renovate",
+  "meaning": "v. 翻新；修复",
+  "example": "They renovated the old library."
+ },
+ {
+  "word": "renowned",
+  "meaning": "adj. 著名的；有声望的",
+  "example": "The city is renowned for its food."
+ },
+ {
+  "word": "repay",
+  "meaning": "v. 偿还；报答",
+  "example": "I will repay the loan next month."
+ },
+ {
+  "word": "repel",
+  "meaning": "v. 击退；排斥",
+  "example": "The spray repels mosquitoes."
+ },
+ {
+  "word": "reproach",
+  "meaning": "v./n. 责备；指责",
+  "example": "He reproached himself for the delay."
+ },
+ {
+  "word": "reputation",
+  "meaning": "n. 名声；名誉",
+  "example": "The school has a good reputation."
+ },
+ {
+  "word": "resemble",
+  "meaning": "v. 类似；像",
+  "example": "The sisters resemble each other strongly."
+ },
+ {
+  "word": "resent",
+  "meaning": "v. 怨恨；不满",
+  "example": "She resents unfair criticism."
+ },
+ {
+  "word": "reside",
+  "meaning": "v. 居住；定居",
+  "example": "The family resides in the countryside."
+ },
+ {
+  "word": "residue",
+  "meaning": "n. 残留；余渣",
+  "example": "Coffee residue goes into the bin."
+ },
+ {
+  "word": "resistant",
+  "meaning": "adj. 抵抗的；耐…的",
+  "example": "This fabric is water resistant."
+ },
+ {
+  "word": "resolve",
+  "meaning": "v. 解决；决心",
+  "example": "They resolved the dispute calmly."
+ },
+ {
+  "word": "resort",
+  "meaning": "v. 求助 n. 度假村",
+  "example": "We had to resort to public transport."
+ },
+ {
+  "word": "restore",
+  "meaning": "v. 恢复；修复",
+  "example": "Experts restored the old painting."
+ },
+ {
+  "word": "restrain",
+  "meaning": "v. 抑制；约束",
+  "example": "He could hardly restrain his laughter."
+ },
+ {
+  "word": "resume",
+  "meaning": "n. 简历 v. 恢复",
+  "example": "Please email your resume today."
+ },
+ {
+  "word": "retail",
+  "meaning": "n. 零售 adj. 零售的",
+  "example": "The retail price is thirty yuan."
+ },
+ {
+  "word": "retain",
+  "meaning": "v. 保留；保持",
+  "example": "Salt retains water in the body."
+ },
+ {
+  "word": "retrieve",
+  "meaning": "v. 取回；找回",
+  "example": "I retrieved my keys from the lost-and-found."
+ },
+ {
+  "word": "reveal",
+  "meaning": "v. 揭示；展现",
+  "example": "The survey reveals surprising habits."
+ },
+ {
+  "word": "revenue",
+  "meaning": "n. 收入；税收",
+  "example": "Ad revenue supports the free app."
+ },
+ {
+  "word": "revere",
+  "meaning": "v. 尊敬；崇敬",
+  "example": "Students revere the wise old teacher."
+ },
+ {
+  "word": "revive",
+  "meaning": "v. 复活；复兴",
+  "example": "Cold water revived the fainting runner."
+ },
+ {
+  "word": "revolve",
+  "meaning": "v. 旋转；围绕",
+  "example": "The earth revolves around the sun."
+ },
+ {
+  "word": "rigid",
+  "meaning": "adj. 严格的；僵硬的",
+  "example": "The school has rigid uniform rules."
+ },
+ {
+  "word": "rigorous",
+  "meaning": "adj. 严格的；严密的",
+  "example": "The product passes rigorous tests."
+ },
+ {
+  "word": "rim",
+  "meaning": "n. 边缘；轮辋",
+  "example": "The cup has a golden rim."
+ },
+ {
+  "word": "rip",
+  "meaning": "v. 撕裂 n. 裂口",
+  "example": "Be careful not to rip the paper."
+ },
+ {
+  "word": "ritual",
+  "meaning": "n. 仪式 adj. 例行的",
+  "example": "Morning tea is his daily ritual."
+ },
+ {
+  "word": "robust",
+  "meaning": "adj. 强健的；结实的",
+  "example": "The robust bridge withstood the storm."
+ },
+ {
+  "word": "rot",
+  "meaning": "v. 腐烂；腐败",
+  "example": "Fallen apples rot quickly in the grass."
+ },
+ {
+  "word": "rural",
+  "meaning": "adj. 农村的；田园的",
+  "example": "Rural schools need more teachers."
+ },
+ {
+  "word": "rust",
+  "meaning": "n. 锈 v. 生锈",
+  "example": "The old gate is covered with rust."
+ },
+ {
+  "word": "sacred",
+  "meaning": "adj. 神圣的；宗教的",
+  "example": "The temple is a sacred place."
+ },
+ {
+  "word": "sake",
+  "meaning": "n. 缘故；理由",
+  "example": "For safety's sake, wear a helmet."
+ },
+ {
+  "word": "salute",
+  "meaning": "v. 敬礼；致敬",
+  "example": "The soldiers saluted the rising flag."
+ },
+ {
+  "word": "saturate",
+  "meaning": "v. 浸透；使饱和",
+  "example": "Heavy rain saturated the field."
+ },
+ {
+  "word": "savage",
+  "meaning": "adj. 野蛮的；凶猛的",
+  "example": "The savage storm tore off the roof."
+ },
+ {
+  "word": "scent",
+  "meaning": "n. 气味；香水",
+  "example": "The scent of roses fills the garden."
+ },
+ {
+  "word": "scope",
+  "meaning": "n. 范围；余地",
+  "example": "The question is beyond the scope of this test."
+ },
+ {
+  "word": "scorn",
+  "meaning": "n./v. 轻蔑；嘲笑",
+  "example": "He scorned the cheap imitation."
+ },
+ {
+  "word": "scramble",
+  "meaning": "v. 攀爬；争夺",
+  "example": "Fans scrambled for the last tickets."
+ },
+ {
+  "word": "scrap",
+  "meaning": "n. 碎片 v. 废弃",
+  "example": "They scrapped the outdated plan."
+ },
+ {
+  "word": "scrub",
+  "meaning": "v. 擦洗；刷洗",
+  "example": "Scrub the pan until it shines."
+ },
+ {
+  "word": "secular",
+  "meaning": "adj. 世俗的；非宗教的",
+  "example": "The school follows a secular curriculum."
+ },
+ {
+  "word": "segment",
+  "meaning": "n. 部分；段",
+  "example": "The young audience segment grew fast."
+ },
+ {
+  "word": "sensation",
+  "meaning": "n. 感觉；轰动",
+  "example": "The show created a sensation online."
+ },
+ {
+  "word": "sentiment",
+  "meaning": "n. 情绪；观点",
+  "example": "Public sentiment favored the change."
+ },
+ {
+  "word": "sequence",
+  "meaning": "n. 顺序；连续",
+  "example": "Number the pictures in the correct sequence."
+ },
+ {
+  "word": "shabby",
+  "meaning": "adj. 破旧的；寒酸的",
+  "example": "He wore a shabby old coat."
+ },
+ {
+  "word": "shatter",
+  "meaning": "v. 打碎；粉碎",
+  "example": "The ball shattered the window."
+ },
+ {
+  "word": "shrewd",
+  "meaning": "adj. 精明的；机敏的",
+  "example": "A shrewd investor spots good deals early."
+ },
+ {
+  "word": "shrink",
+  "meaning": "v. 收缩；退缩",
+  "example": "Woolen sweaters shrink in hot water."
+ },
+ {
+  "word": "shrub",
+  "meaning": "n. 灌木",
+  "example": "Butterflies love the garden shrubs."
+ },
+ {
+  "word": "shutter",
+  "meaning": "n. 百叶窗；快门",
+  "example": "The photographer pressed the shutter."
+ },
+ {
+  "word": "siege",
+  "meaning": "n. 围攻；围困",
+  "example": "The castle survived a long siege."
+ },
+ {
+  "word": "simplify",
+  "meaning": "v. 简化；使简易",
+  "example": "Simplify the instructions for beginners."
+ },
+ {
+  "word": "simulate",
+  "meaning": "v. 模拟；模仿",
+  "example": "The software simulates real flight."
+ },
+ {
+  "word": "simultaneous",
+  "meaning": "adj. 同时发生的",
+  "example": "The event features simultaneous translation."
+ },
+ {
+  "word": "skeptical",
+  "meaning": "adj. 怀疑的；将信将疑的",
+  "example": "I am skeptical about the miracle cure."
+ },
+ {
+  "word": "slack",
+  "meaning": "adj. 松弛的；萧条的",
+  "example": "Business is slack during the off-season."
+ },
+ {
+  "word": "slaughter",
+  "meaning": "v./n. 屠宰；屠杀",
+  "example": "The rule protects animals from cruel slaughter."
+ },
+ {
+  "word": "slender",
+  "meaning": "adj. 苗条的；纤细的",
+  "example": "The slender bridge spans the valley."
+ },
+ {
+  "word": "slogan",
+  "meaning": "n. 口号；标语",
+  "example": "The team chose an encouraging slogan."
+ },
+ {
+  "word": "slope",
+  "meaning": "n. 斜坡；坡度",
+  "example": "The ski slope opens in December."
+ },
+ {
+  "word": "sly",
+  "meaning": "adj. 狡猾的；诡秘的",
+  "example": "The sly fox stole the hen at night."
+ },
+ {
+  "word": "smash",
+  "meaning": "v. 打碎；猛击",
+  "example": "He smashed the old alarm clock."
+ },
+ {
+  "word": "smuggle",
+  "meaning": "v. 走私；偷运",
+  "example": "Customs officers stop those who smuggle goods."
+ },
+ {
+  "word": "snap",
+  "meaning": "v. 折断；快照",
+  "example": "The twig snapped under his foot."
+ },
+ {
+  "word": "sneak",
+  "meaning": "v. 溜；偷偷地做",
+  "example": "The cat sneaked into the kitchen."
+ },
+ {
+  "word": "soar",
+  "meaning": "v. 翱翔；骤升",
+  "example": "Prices soared during the holiday."
+ },
+ {
+  "word": "solemn",
+  "meaning": "adj. 庄严的；严肃的",
+  "example": "The ceremony had a solemn air."
+ },
+ {
+  "word": "solitary",
+  "meaning": "adj. 孤独的；单独的",
+  "example": "He enjoys solitary walks by the sea."
+ },
+ {
+  "word": "sophomore",
+  "meaning": "n. 大学二年级学生",
+  "example": "My sophomore year was full of challenges."
+ },
+ {
+  "word": "spacious",
+  "meaning": "adj. 宽敞的；广阔的",
+  "example": "The new apartment is bright and spacious."
+ },
+ {
+  "word": "span",
+  "meaning": "n. 跨度；一段时间",
+  "example": "The bridge spans the wide river."
+ },
+ {
+  "word": "sparkle",
+  "meaning": "v. 闪耀 n. 光芒",
+  "example": "Her eyes sparkle with excitement."
+ },
+ {
+  "word": "specify",
+  "meaning": "v. 指定；详细说明",
+  "example": "Please specify your seat preference."
+ },
+ {
+  "word": "spectacle",
+  "meaning": "n. 景象；壮观场面",
+  "example": "The sunrise was a wonderful spectacle."
+ },
+ {
+  "word": "spectrum",
+  "meaning": "n. 光谱；范围",
+  "example": "The review covers a wide spectrum of topics."
+ },
+ {
+  "word": "sphere",
+  "meaning": "n. 球体；领域",
+  "example": "The lamp is shaped like a sphere."
+ },
+ {
+  "word": "spiral",
+  "meaning": "n. 螺旋 v. 盘旋",
+  "example": "The path spirals up the tower."
+ },
+ {
+  "word": "splash",
+  "meaning": "v. 溅；泼",
+  "example": "The kids splashed water in the pool."
+ },
+ {
+  "word": "split",
+  "meaning": "v. 分裂；分担",
+  "example": "Let's split the bill evenly."
+ },
+ {
+  "word": "spontaneous",
+  "meaning": "adj. 自发的；自然的",
+  "example": "The crowd broke into spontaneous applause."
+ },
+ {
+  "word": "spray",
+  "meaning": "v. 喷洒 n. 喷雾",
+  "example": "Spray the plants with water daily."
+ },
+ {
+  "word": "sprinkle",
+  "meaning": "v. 撒；洒",
+  "example": "Sprinkle some salt on the salad."
+ },
+ {
+  "word": "stab",
+  "meaning": "v. 刺；戳",
+  "example": "He stabbed the straw into the juice."
+ },
+ {
+  "word": "stability",
+  "meaning": "n. 稳定；稳固",
+  "example": "Economic stability benefits everyone."
+ },
+ {
+  "word": "stagger",
+  "meaning": "v. 蹒跚；使吃惊",
+  "example": "The price staggered all the shoppers."
+ },
+ {
+  "word": "stationary",
+  "meaning": "adj. 静止的；固定的",
+  "example": "The car remained stationary at the light."
+ },
+ {
+  "word": "stimulate",
+  "meaning": "v. 刺激；激励",
+  "example": "Coffee stimulates the tired brain."
+ },
+ {
+  "word": "stitch",
+  "meaning": "n. 针脚 v. 缝合",
+  "example": "The nurse stitched the small cut."
+ },
+ {
+  "word": "storage",
+  "meaning": "n. 存储；仓库",
+  "example": "The boxes went into dry storage."
+ },
+ {
+  "word": "strenuous",
+  "meaning": "adj. 费力的；繁重的",
+  "example": "Avoid strenuous exercise after meals."
+ },
+ {
+  "word": "stride",
+  "meaning": "v./n. 大步走；进步",
+  "example": "She strode across the stage confidently."
+ },
+ {
+  "word": "strive",
+  "meaning": "v. 努力；奋斗",
+  "example": "We strive for excellence every day."
+ },
+ {
+  "word": "stubborn",
+  "meaning": "adj. 固执的；顽强的",
+  "example": "The stubborn mule refused to move."
+ },
+ {
+  "word": "stumble",
+  "meaning": "v. 绊倒；偶然发现",
+  "example": "I stumbled upon an old photo album."
+ },
+ {
+  "word": "submerge",
+  "meaning": "v. 淹没；潜入水中",
+  "example": "The heavy rain submerged the fields."
+ },
+ {
+  "word": "submit",
+  "meaning": "v. 提交；服从",
+  "example": "Submit the form before Friday."
+ },
+ {
+  "word": "subordinate",
+  "meaning": "adj. 从属的 n. 下属",
+  "example": "Safety is never subordinate to speed."
+ },
+ {
+  "word": "subsidy",
+  "meaning": "n. 补贴；津贴",
+  "example": "Farmers receive a government subsidy."
+ },
+ {
+  "word": "substance",
+  "meaning": "n. 物质；实质",
+  "example": "Salt is a common substance in the kitchen."
+ },
+ {
+  "word": "substantial",
+  "meaning": "adj. 大量的；实质的",
+  "example": "The project made substantial progress."
+ },
+ {
+  "word": "subtle",
+  "meaning": "adj. 微妙的；细微的",
+  "example": "There is a subtle difference in taste."
+ },
+ {
+  "word": "sue",
+  "meaning": "v. 起诉；控告",
+  "example": "He may sue the company for damages."
+ },
+ {
+  "word": "sufficient",
+  "meaning": "adj. 足够的；充分的",
+  "example": "Two hours is sufficient for the test."
+ },
+ {
+  "word": "suite",
+  "meaning": "n. 套房；一套家具",
+  "example": "They booked a hotel suite for the holiday."
+ },
+ {
+  "word": "summit",
+  "meaning": "n. 顶峰；峰会",
+  "example": "The climbers reached the summit at dawn."
+ },
+ {
+  "word": "summon",
+  "meaning": "v. 召唤；传唤",
+  "example": "The manager summoned an urgent meeting."
+ },
+ {
+  "word": "superb",
+  "meaning": "adj. 极好的；华丽的",
+  "example": "The dinner was absolutely superb."
+ },
+ {
+  "word": "superior",
+  "meaning": "adj. 更好的；上级的",
+  "example": "This model is superior to the old one."
+ },
+ {
+  "word": "supplement",
+  "meaning": "v. 补充 n. 增刊",
+  "example": "She takes a vitamin supplement daily."
+ },
+ {
+  "word": "suppress",
+  "meaning": "v. 压制；抑制",
+  "example": "He suppressed a smile during the speech."
+ },
+ {
+  "word": "surge",
+  "meaning": "v. 激增 n. 浪涌",
+  "example": "A surge of energy carried her to the finish."
+ },
+ {
+  "word": "surpass",
+  "meaning": "v. 超越；胜过",
+  "example": "The result surpassed all expectations."
+ },
+ {
+  "word": "surplus",
+  "meaning": "n. 盈余；过剩",
+  "example": "The farm sold its surplus corn."
+ },
+ {
+  "word": "surrender",
+  "meaning": "v. 投降；放弃",
+  "example": "The thief surrendered to the police."
+ },
+ {
+  "word": "susceptible",
+  "meaning": "adj. 易受影响的；易感的",
+  "example": "Children are susceptible to colds."
+ },
+ {
+  "word": "suspicion",
+  "meaning": "n. 怀疑；嫌疑",
+  "example": "The odd noise aroused suspicion."
+ },
+ {
+  "word": "sustain",
+  "meaning": "v. 维持；承受",
+  "example": "The bridge sustains heavy trucks."
+ },
+ {
+  "word": "swamp",
+  "meaning": "n. 沼泽 v. 淹没",
+  "example": "Rain swamped the small tent."
+ },
+ {
+  "word": "symmetry",
+  "meaning": "n. 对称；匀称",
+  "example": "The building shows perfect symmetry."
+ },
+ {
+  "word": "syndrome",
+  "meaning": "n. 综合征；典型表现",
+  "example": "The doctor diagnosed a rare syndrome."
+ },
+ {
+  "word": "tackle",
+  "meaning": "v. 处理；解决",
+  "example": "We must tackle the problem head-on."
+ },
+ {
+  "word": "tactic",
+  "meaning": "n. 战术；策略",
+  "example": "Slow and steady is a good tactic."
+ },
+ {
+  "word": "tan",
+  "meaning": "n. 晒黑 v. 晒成褐色",
+  "example": "She got a tan at the beach."
+ },
+ {
+  "word": "tariff",
+  "meaning": "n. 关税；价目表",
+  "example": "New tariffs raised import prices."
+ },
+ {
+  "word": "tedious",
+  "meaning": "adj. 乏味的；冗长的",
+  "example": "The long lecture was rather tedious."
+ },
+ {
+  "word": "temper",
+  "meaning": "n. 脾气 v. 缓和",
+  "example": "Keep your temper during the debate."
+ },
+ {
+  "word": "tempo",
+  "meaning": "n. 节奏；速度",
+  "example": "The song has a fast tempo."
+ },
+ {
+  "word": "tenant",
+  "meaning": "n. 房客；租户",
+  "example": "The tenant pays rent on the first."
+ },
+ {
+  "word": "tentative",
+  "meaning": "adj. 试探性的；暂定的",
+  "example": "We made a tentative plan for Friday."
+ },
+ {
+  "word": "terminate",
+  "meaning": "v. 终止；结束",
+  "example": "The contract terminates next month."
+ },
+ {
+  "word": "terrain",
+  "meaning": "n. 地形；地势",
+  "example": "The bike handles rough terrain well."
+ },
+ {
+  "word": "testify",
+  "meaning": "v. 作证；证明",
+  "example": "The witness testified in court."
+ },
+ {
+  "word": "texture",
+  "meaning": "n. 质地；纹理",
+  "example": "The fabric has a soft texture."
+ },
+ {
+  "word": "thermal",
+  "meaning": "adj. 热的；保暖的",
+  "example": "Thermal underwear keeps you warm in winter."
+ },
+ {
+  "word": "thrive",
+  "meaning": "v. 兴旺；茁壮成长",
+  "example": "Plants thrive in warm sunlight."
+ },
+ {
+  "word": "throne",
+  "meaning": "n. 王座；王位",
+  "example": "The young prince took the throne."
+ },
+ {
+  "word": "thump",
+  "meaning": "v. 重击 n. 砰然声",
+  "example": "He thumped the table in anger."
+ },
+ {
+  "word": "tile",
+  "meaning": "n. 瓷砖；瓦片",
+  "example": "The bathroom floor is covered with blue tiles."
+ },
+ {
+  "word": "timber",
+  "meaning": "n. 木材；木料",
+  "example": "The cabin was built with local timber."
+ },
+ {
+  "word": "tolerate",
+  "meaning": "v. 忍受；容许",
+  "example": "I cannot tolerate loud noise at night."
+ },
+ {
+  "word": "torment",
+  "meaning": "n. 痛苦 v. 折磨",
+  "example": "Loud neighbors torment light sleepers."
+ },
+ {
+  "word": "toss",
+  "meaning": "v. 扔；抛",
+  "example": "Toss the salad before serving."
+ },
+ {
+  "word": "toxic",
+  "meaning": "adj. 有毒的",
+  "example": "Some mushrooms are highly toxic."
+ },
+ {
+  "word": "tract",
+  "meaning": "n. 大片土地；道",
+  "example": "A wide tract of forest lies to the north."
+ },
+ {
+  "word": "trait",
+  "meaning": "n. 特征；特性",
+  "example": "Patience is her best personality trait."
+ },
+ {
+  "word": "traitor",
+  "meaning": "n. 叛徒；卖国贼",
+  "example": "The traitor sold the secret plans."
+ },
+ {
+  "word": "transaction",
+  "meaning": "n. 交易；办理",
+  "example": "Each transaction is recorded online."
+ },
+ {
+  "word": "transform",
+  "meaning": "v. 转变；改造",
+  "example": "Hard work transforms raw talent into skill."
+ },
+ {
+  "word": "transient",
+  "meaning": "adj. 短暂的；临时的",
+  "example": "Fame is often transient."
+ },
+ {
+  "word": "transmit",
+  "meaning": "v. 传输；传染",
+  "example": "Radio towers transmit signals far away."
+ },
+ {
+  "word": "transparent",
+  "meaning": "adj. 透明的；公开的",
+  "example": "The process is fully transparent."
+ },
+ {
+  "word": "transplant",
+  "meaning": "v. 移植；移栽",
+  "example": "Doctors transplanted the healthy kidney."
+ },
+ {
+  "word": "tremble",
+  "meaning": "v. 颤抖；发抖",
+  "example": "Her hands trembled with cold."
+ },
+ {
+  "word": "tremendous",
+  "meaning": "adj. 巨大的；惊人的",
+  "example": "The show was a tremendous success."
+ },
+ {
+  "word": "trench",
+  "meaning": "n. 沟渠；战壕",
+  "example": "Workers dug a trench for the pipes."
+ },
+ {
+  "word": "trial",
+  "meaning": "n. 审判；试验",
+  "example": "The new drug enters its final trial."
+ },
+ {
+  "word": "tribe",
+  "meaning": "n. 部落；宗族",
+  "example": "The mountain tribe keeps old customs."
+ },
+ {
+  "word": "tribute",
+  "meaning": "n. 贡品；致敬",
+  "example": "The concert was a tribute to the band."
+ },
+ {
+  "word": "trifle",
+  "meaning": "n. 小事；稍许",
+  "example": "Do not worry about such a trifle."
+ },
+ {
+  "word": "triumph",
+  "meaning": "n. 胜利 v. 获胜",
+  "example": "Hard work leads to final triumph."
+ },
+ {
+  "word": "trivial",
+  "meaning": "adj. 琐碎的；不重要的",
+  "example": "Do not waste time on trivial details."
+ },
+ {
+  "word": "tropic",
+  "meaning": "n. 热带；回归线",
+  "example": "Palm trees grow in the tropics."
+ },
+ {
+  "word": "troublesome",
+  "meaning": "adj. 麻烦的；讨厌的",
+  "example": "The printer is a troublesome machine."
+ },
+ {
+  "word": "tub",
+  "meaning": "n. 浴盆；桶",
+  "example": "She filled the tub with warm water."
+ },
+ {
+  "word": "tuck",
+  "meaning": "v. 塞进；卷起",
+  "example": "Tuck the shirt into your trousers."
+ },
+ {
+  "word": "tug",
+  "meaning": "v. 用力拉 n. 拖船",
+  "example": "The puppy tugged at its leash."
+ },
+ {
+  "word": "tumor",
+  "meaning": "n. 肿瘤；肿块",
+  "example": "The scan found a small tumor."
+ },
+ {
+  "word": "turbulent",
+  "meaning": "adj. 动荡的；狂暴的",
+  "example": "The plane met turbulent air."
+ },
+ {
+  "word": "twilight",
+  "meaning": "n. 黄昏；暮光",
+  "example": "Fireflies appear at twilight."
+ },
+ {
+  "word": "ultimate",
+  "meaning": "adj. 最终的；根本的",
+  "example": "The ultimate goal is full recovery."
+ },
+ {
+  "word": "unanimous",
+  "meaning": "adj. 一致同意的",
+  "example": "The vote was unanimous in her favor."
+ },
+ {
+  "word": "undergo",
+  "meaning": "v. 经历；接受",
+  "example": "The bridge will undergo safety checks."
+ },
+ {
+  "word": "underlying",
+  "meaning": "adj. 潜在的；根本的",
+  "example": "We found the underlying cause of the delay."
+ },
+ {
+  "word": "undermine",
+  "meaning": "v. 削弱；暗中破坏",
+  "example": "Rumors undermine trust in the team."
+ },
+ {
+  "word": "undertake",
+  "meaning": "v. 承担；从事",
+  "example": "She undertook the difficult project."
+ },
+ {
+  "word": "unfold",
+  "meaning": "v. 展开；展现",
+  "example": "The story unfolds slowly in the film."
+ },
+ {
+  "word": "unify",
+  "meaning": "v. 统一；使一致",
+  "example": "The new rules unify both campuses."
+ },
+ {
+  "word": "unleash",
+  "meaning": "v. 释放；发泄",
+  "example": "The storm unleashed its fury at midnight."
+ },
+ {
+  "word": "update",
+  "meaning": "v. 更新 n. 最新消息",
+  "example": "Update the app to fix the bug."
+ },
+ {
+  "word": "upgrade",
+  "meaning": "v. 升级 n. 升级版",
+  "example": "They upgraded the whole sound system."
+ },
+ {
+  "word": "uphold",
+  "meaning": "v. 维护；支持",
+  "example": "Courts uphold the rights of citizens."
+ },
+ {
+  "word": "utilize",
+  "meaning": "v. 利用；使用",
+  "example": "The kitchen utilizes solar power."
+ },
+ {
+  "word": "utter",
+  "meaning": "adj. 完全的 v. 说",
+  "example": "There was utter silence in the hall."
+ },
+ {
+  "word": "vacant",
+  "meaning": "adj. 空的；空缺的",
+  "example": "The vacant room is on the second floor."
+ },
+ {
+  "word": "vague",
+  "meaning": "adj. 模糊的；含糊的",
+  "example": "His directions were hopelessly vague."
+ },
+ {
+  "word": "valid",
+  "meaning": "adj. 有效的；有根据的",
+  "example": "The ticket is valid for three days."
+ },
+ {
+  "word": "vanish",
+  "meaning": "v. 消失；绝迹",
+  "example": "The magician made the coin vanish."
+ },
+ {
+  "word": "variable",
+  "meaning": "adj. 多变的 n. 变量",
+  "example": "Spring weather is highly variable."
+ },
+ {
+  "word": "verify",
+  "meaning": "v. 核实；查证",
+  "example": "Please verify your email address."
+ },
+ {
+  "word": "versatile",
+  "meaning": "adj. 多才多艺的；多用途的",
+  "example": "Eggs are a versatile cooking ingredient."
+ },
+ {
+  "word": "vibrate",
+  "meaning": "v. 震动；颤动",
+  "example": "The phone vibrates during meetings."
+ },
+ {
+  "word": "vigorous",
+  "meaning": "adj. 有力的；精力充沛的",
+  "example": "Vigorous exercise refreshes the mind."
+ },
+ {
+  "word": "vine",
+  "meaning": "n. 藤蔓；葡萄藤",
+  "example": "Grapes hang from the old vine."
+ },
+ {
+  "word": "virtue",
+  "meaning": "n. 美德；优点",
+  "example": "Patience is a great virtue."
+ },
+ {
+  "word": "vivid",
+  "meaning": "adj. 生动的；鲜艳的",
+  "example": "She gave a vivid account of the trip."
+ },
+ {
+  "word": "volunteer",
+  "meaning": "n. 志愿者 v. 自愿做",
+  "example": "Many volunteers joined the cleanup."
+ },
+ {
+  "word": "vow",
+  "meaning": "n. 誓言 v. 发誓",
+  "example": "They vowed to meet again soon."
+ },
+ {
+  "word": "vulnerable",
+  "meaning": "adj. 易受伤害的；脆弱的",
+  "example": "Young plants are vulnerable to frost."
+ },
+ {
+  "word": "warrant",
+  "meaning": "n. 授权令 v. 保证",
+  "example": "The police obtained a search warrant."
+ },
+ {
+  "word": "watertight",
+  "meaning": "adj. 不漏水的；严密的",
+  "example": "Keep the plan watertight before announcing it."
+ },
+ {
+  "word": "weave",
+  "meaning": "v. 编织；编造",
+  "example": "She weaves wool into warm scarves."
+ },
+ {
+  "word": "weld",
+  "meaning": "v. 焊接；结合",
+  "example": "The welder welded the steel bars together."
+ },
+ {
+  "word": "wharf",
+  "meaning": "n. 码头；停泊处",
+  "example": "Fishing boats line the old wharf."
+ },
+ {
+  "word": "whisper",
+  "meaning": "v. 低语 n. 耳语",
+  "example": "She whispered the answer to me."
+ },
+ {
+  "word": "whistle",
+  "meaning": "v. 吹口哨 n. 哨子",
+  "example": "The referee blew the whistle at noon."
+ },
+ {
+  "word": "wicked",
+  "meaning": "adj. 邪恶的；缺德的",
+  "example": "The witch in the tale is truly wicked."
+ },
+ {
+  "word": "widen",
+  "meaning": "v. 加宽；拓宽",
+  "example": "They plan to widen the main road."
+ },
+ {
+  "word": "wither",
+  "meaning": "v. 枯萎；凋谢",
+  "example": "The flowers withered in the drought."
+ },
+ {
+  "word": "wit",
+  "meaning": "n. 智力；风趣",
+  "example": "His quick wit saves every awkward moment."
+ },
+ {
+  "word": "witness",
+  "meaning": "n. 目击者 v. 目睹",
+  "example": "The witness described the accident clearly."
+ },
+ {
+  "word": "workout",
+  "meaning": "n. 锻炼；训练",
+  "example": "A short workout boosts your energy."
+ },
+ {
+  "word": "wreck",
+  "meaning": "n. 残骸 v. 破坏",
+  "example": "Divers explored the old ship wreck."
+ },
+ {
+  "word": "wrench",
+  "meaning": "v. 猛拧 n. 扳手",
+  "example": "Use a wrench to loosen the bolt."
+ },
+ {
+  "word": "wrinkle",
+  "meaning": "n. 皱纹；褶皱",
+  "example": "Iron the shirt to remove every wrinkle."
+ },
+ {
+  "word": "yearn",
+  "meaning": "v. 渴望；向往",
+  "example": "She yearns for the peace of the countryside."
+ },
+ {
+  "word": "yield",
+  "meaning": "v. 屈服；产出 n. 产量",
+  "example": "The orchard yields apples every autumn."
+ },
+ {
+  "word": "zeal",
+  "meaning": "n. 热情；热心",
+  "example": "She works with great zeal."
+ },
+ {
+  "word": "zigzag",
+  "meaning": "n. 之字形 v. 曲折前进",
+  "example": "The path zigzags up the mountain."
+ }
 ]

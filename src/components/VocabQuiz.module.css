@@ -96,6 +96,30 @@
   font-size: 20px;
   font-weight: 700;
   color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 🔊 发音小按钮：手绘贴纸风 */
+.speakBtn {
+  border: none;
+  background: none;
+  padding: 2px 4px;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform .15s ease, background .15s ease;
+}
+
+.speakBtn:hover {
+  background: rgba(143, 163, 130, .15);
+  transform: scale(1.15) rotate(-4deg);
+}
+
+.speakBtn:active {
+  transform: scale(.95);
 }
 
 .options {

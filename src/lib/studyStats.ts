@@ -7,6 +7,7 @@
  *   cet_translate_count → 翻译练习次数
  *   cet_essay_count     → 作文批改次数
  *   cet_study_plan      → 备考计划 { content, savedAt }（备考计划面板写入）
+ *   cet_daily_activity  → 每日练习量 { 'YYYY-MM-DD': { translate, essay, quiz } }（趋势图用）
  */
 
 const QUIZ_COUNT_KEY = 'cet_quiz_count';
@@ -14,6 +15,7 @@ const WRONG_WORDS_KEY = 'cet_wrong_words';
 const TRANSLATE_COUNT_KEY = 'cet_translate_count';
 const ESSAY_COUNT_KEY = 'cet_essay_count';
 const STUDY_PLAN_KEY = 'cet_study_plan';
+const DAILY_KEY = 'cet_daily_activity';
 
 export interface WrongWordEntry {
   meaning: string;
@@ -82,4 +84,77 @@ export function loadStudyStats(): StudyStats {
 export function incrementExercise(type: 'translate' | 'essay'): void {
   const key = type === 'translate' ? TRANSLATE_COUNT_KEY : ESSAY_COUNT_KEY;
   localStorage.setItem(key, String(getInt(key) + 1));
+  bumpDaily(type);
+}
+
+/* ============ 每日练习量（趋势图数据） ============ */
+
+export type DailyKind = 'translate' | 'essay' | 'quiz';
+
+export interface DayActivity {
+  translate: number;
+  essay: number;
+  quiz: number;
+}
+
+export interface DayPoint extends DayActivity {
+  date: string;   // YYYY-MM-DD
+  label: string;  // 展示用短标签，如「周一」「今天」
+  total: number;
+}
+
+function todayStr(): string {
+  const d = new Date();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${d.getFullYear()}-${m}-${day}`;
+}
+
+function loadDaily(): Record<string, DayActivity> {
+  try {
+    const raw = localStorage.getItem(DAILY_KEY);
+    const parsed = raw ? JSON.parse(raw) : null;
+    return parsed && typeof parsed === 'object' ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+/** 今日某类练习 +1（趋势图数据源），在各类练习完成时调用 */
+export function bumpDaily(kind: DailyKind): void {
+  const store = loadDaily();
+  const today = todayStr();
+  const entry = store[today] ?? { translate: 0, essay: 0, quiz: 0 };
+  entry[kind] = (entry[kind] ?? 0) + 1;
+  store[today] = entry;
+  try {
+    localStorage.setItem(DAILY_KEY, JSON.stringify(store));
+  } catch {
+    // 存储满时忽略，不影响主流程
+  }
+}
+
+/** 最近 n 天（默认 7 天）每日练习量，按时间正序返回，供趋势图渲染 */
+export function loadDailySeries(n = 7): DayPoint[] {
+  const store = loadDaily();
+  const points: DayPoint[] = [];
+  const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+
+  for (let i = n - 1; i >= 0; i--) {
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    const date = `${d.getFullYear()}-${m}-${day}`;
+    const act = store[date] ?? { translate: 0, essay: 0, quiz: 0 };
+    points.push({
+      date,
+      label: i === 0 ? '今天' : `周${weekdays[d.getDay()]}`,
+      translate: act.translate ?? 0,
+      essay: act.essay ?? 0,
+      quiz: act.quiz ?? 0,
+      total: (act.translate ?? 0) + (act.essay ?? 0) + (act.quiz ?? 0),
+    });
+  }
+  return points;
 }

@@ -1,5 +1,7 @@
 import { useCallback, useState } from 'react';
 import { useT } from '../i18n';
+import { speak } from '../lib/speak';
+import { bumpDaily } from '../lib/studyStats';
 import styles from './VocabQuiz.module.css';
 
 /* ============ 类型 ============ */
@@ -63,6 +65,7 @@ function addWrongWord(word: WordItem): void {
 function addQuizCount(): void {
   const n = Number(localStorage.getItem(QUIZ_COUNT_KEY) || '0') + 1;
   localStorage.setItem(QUIZ_COUNT_KEY, String(n));
+  bumpDaily('quiz'); // 写入每日练习量，供学习记录趋势图使用
 }
 
 /* ============ 组件 ============ */
@@ -160,7 +163,15 @@ export default function VocabQuiz() {
             <ul className={styles.wrongList}>
               {wrongList.map(w => (
                 <li key={w.word}>
-                  <b>{w.word}</b> — {w.meaning}
+                  <b>{w.word}</b>
+                  <button
+                    className={styles.speakBtn}
+                    title={t('quiz.speak')}
+                    onClick={() => speak(w.word)}
+                  >
+                    🔊
+                  </button>
+                  {' — '}{w.meaning}
                 </li>
               ))}
             </ul>
@@ -184,7 +195,16 @@ export default function VocabQuiz() {
         Q{index + 1} / {questions.length} · {t('quiz.score')}: {score}
       </p>
       <div className={styles.question}>
-        <p className={styles.word}>{q.word.word}</p>
+        <p className={styles.word}>
+          {q.word.word}
+          <button
+            className={styles.speakBtn}
+            title={t('quiz.speak')}
+            onClick={() => speak(q.word.word)}
+          >
+            🔊
+          </button>
+        </p>
         <div className={styles.options}>
           {q.options.map(opt => {
             const isAnswer = opt === q.answer;
@@ -207,7 +227,16 @@ export default function VocabQuiz() {
           <p className={selected === q.answer ? styles.feedbackOk : styles.feedbackNo}>
             {selected === q.answer ? t('quiz.correct') : `${t('quiz.wrong')} — ${q.word.word}: ${q.answer}`}
           </p>
-          <p className={styles.example}>{q.word.example}</p>
+          <p className={styles.example}>
+            {q.word.example}
+            <button
+              className={styles.speakBtn}
+              title={t('quiz.speak')}
+              onClick={() => speak(q.word.example)}
+            >
+              🔊
+            </button>
+          </p>
           <button className={styles.startBtn} onClick={handleNext}>
             {index + 1 < questions.length ? t('quiz.next') : t('quiz.finish')}
           </button>

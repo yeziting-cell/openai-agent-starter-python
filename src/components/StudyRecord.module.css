@@ -59,6 +59,79 @@
   line-height: 1.8;
 }
 
+/* ============ 7 天趋势小图 ============ */
+.chartWrap {
+  border: 1.6px solid var(--bg-border);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-chip);
+  padding: 12px 10px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.chartTitle {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.chart {
+  width: 100%;
+  height: auto;
+}
+
+.chartLabel {
+  font-size: 10px;
+  fill: var(--text-muted);
+  font-family: var(--font-hand);
+}
+
+.legend {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.legend i {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px 4px 3px 4px;
+  display: inline-block;
+  transform: rotate(-2deg);
+}
+
+/* 🔊 发音小按钮（与词汇测试面板同款手绘风） */
+.speakBtn {
+  border: none;
+  background: none;
+  padding: 1px 3px;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform .15s ease, background .15s ease;
+}
+
+.speakBtn:hover {
+  background: rgba(143, 163, 130, .15);
+  transform: scale(1.15) rotate(-4deg);
+}
+
+.speakBtn:active {
+  transform: scale(.95);
+}
+
 .btnRow {
   display: flex;
   gap: 8px;
