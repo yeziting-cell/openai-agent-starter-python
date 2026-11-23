@@ -1,20 +1,20 @@
 const en = {
   // Header
-  "app.title": "OpenAI Agents Starter",
-  "app.subtitle": "Running on EdgeOne Makers with session memory & Agent Tools",
+  "app.title": "CET Prep Agent",
+  "app.subtitle": "Running on EdgeOne Makers · Your CET-4/6 study assistant",
 
   // Empty state
-  "empty.title": "OpenAI Agents Starter",
-  "empty.hint": "I'm an OpenAI Agent running on EdgeOne with custom tools and session memory. I can help with weather, clothing advice, translation, and text statistics.",
-  "empty.features": "EdgeOne Store · Session Memory · Agent Tools",
+  "empty.title": "CET Prep Agent",
+  "empty.hint": "I'm your CET-4/6 study assistant. I can help with study plans, vocabulary quizzes, translation practice, essay review, and study records.",
+  "empty.features": "Study Plan · Vocab Quiz · Translation · Essay Review",
 
   // Chat input
   "chat.placeholder": "Type a message...  ⏎ Send · Shift+⏎ Newline",
-  "chat.hint": "Powered by OpenAI Agents SDK + EdgeOne Makers · Demo only",
+  "chat.hint": "Powered by OpenAI Agents SDK + EdgeOne Makers",
 
   // Preset questions
-  "preset.1": "What is the weather like in Beijing now? Any clothing suggestions?",
-  "preset.2": "Translate \"Hello, welcome to Beijing!\" into Chinese and count the characters.",
+  "preset.1": "Help me make a CET-4 study plan, 2 hours of study per day.",
+  "preset.2": "Translate this English sentence and give suggestions: Persistence is the key to success.",
 
   // Tool indicators (CET Agent's 5 tools)
   "tool.create_study_plan": "Study Plan",

@@ -1,20 +1,20 @@
 const zh = {
   // Header
-  "app.title": "OpenAI Agents Starter",
-  "app.subtitle": "运行在 EdgeOne Makers 上，支持会话记忆、Agent Tools",
+  "app.title": "四六级智学通",
+  "app.subtitle": "运行在 EdgeOne Makers 上 · CET-4/6 智能备考助手",
 
   // Empty state
-  "empty.title": "OpenAI Agents Starter",
-  "empty.hint": "我是运行在 EdgeOne 环境中的 OpenAI Agents，支持自定义工具、会话记忆，并帮助你完成天气查询、穿衣建议、翻译和文本统计。",
-  "empty.features": "EdgeOne Store · Session Memory · Agent Tools",
+  "empty.title": "四六级智学通",
+  "empty.hint": "我是你的英语四六级备考助手，支持备考计划、词汇学习与测试、翻译练习、作文批改和学习记录统计。",
+  "empty.features": "Study Plan · Vocab Quiz · Translation · Essay Review",
 
   // Chat input
   "chat.placeholder": "发消息…  ⏎ 发送 · Shift+⏎ 换行",
-  "chat.hint": "由 OpenAI Agents SDK + EdgeOne Makers 驱动 · 仅供演示",
+  "chat.hint": "由 OpenAI Agents SDK + EdgeOne Makers 驱动",
 
   // Preset questions
-  "preset.1": "现在北京天气怎么样，有什么穿衣建议吗？",
-  "preset.2": "帮我翻译英文\"你好，欢迎来到北京！\"，并统计翻译字符数。",
+  "preset.1": "帮我制定一个四级备考计划，每天学习 2 小时",
+  "preset.2": "帮我翻译英文：Persistence is the key to success，并给出修改建议。",
 
   // Tool indicators（四六级智学通的 5 个工具）
   "tool.create_study_plan": "备考计划",
