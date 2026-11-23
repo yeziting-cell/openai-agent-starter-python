@@ -9,23 +9,22 @@
 .userRow { justify-content: flex-end; }
 
 .avatar {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50% 46% 54% 48% / 48% 54% 46% 52%;
   background: var(--bg-elevated);
-  border: 1px solid var(--bg-border);
+  border: 1.6px solid var(--bg-border);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: .8rem;
+  font-size: .9rem;
   color: var(--accent-gold);
   flex-shrink: 0;
-  font-family: var(--font-display);
-  font-weight: 700;
+  box-shadow: var(--shadow-chip);
 }
 .userAvatar {
-  color: var(--text-secondary);
-  font-size: .65rem;
+  color: var(--mori-blue);
+  font-size: .7rem;
 }
 
 .bubble {
@@ -33,24 +32,26 @@
   max-width: 68%;
   padding: 12px 16px 24px;
   border-radius: var(--radius-md);
-  font-size: .82rem;
-  line-height: 1.65;
+  font-size: .84rem;
+  line-height: 1.7;
   word-break: break-word;
 }
 
 .botBubble {
   background: var(--bot-bubble);
-  border: 1px solid var(--bot-border);
+  border: 1.6px solid var(--bot-border);
   color: var(--text-primary);
-  border-radius: var(--radius-md) var(--radius-md) var(--radius-md) 4px;
+  border-radius: var(--radius-md) var(--radius-md) var(--radius-md) 5px;
+  box-shadow: var(--shadow-chip);
 }
 
 .userBubble {
   background: var(--user-bubble);
-  border: 1px solid var(--user-border);
+  border: 1.6px solid var(--user-border);
   color: var(--text-primary);
-  border-radius: var(--radius-md) var(--radius-md) 4px var(--radius-md);
+  border-radius: var(--radius-md) var(--radius-md) 5px var(--radius-md);
   white-space: pre-wrap;
+  box-shadow: var(--shadow-chip);
 }
 
 .time {
@@ -109,17 +110,17 @@
   padding-left: 0.15em;
 }
 .markdown :global(code) {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid var(--bg-border);
-  border-radius: 4px;
+  background: var(--accent-gold-dim);
+  border: 1px dashed var(--bg-border);
+  border-radius: 6px;
   padding: 0.15em 0.4em;
   font-family: var(--font-mono);
   font-size: 0.88em;
 }
 .markdown :global(pre) {
-  background: rgba(0, 0, 0, 0.3);
-  border: 1px solid var(--bg-border);
-  border-radius: 6px;
+  background: #faf6ec;
+  border: 1.5px dashed var(--bg-border);
+  border-radius: 10px 12px 10px 12px / 12px 10px 12px 10px;
   padding: 10px 14px;
   overflow-x: auto;
   margin: 0.5em 0;
@@ -131,7 +132,7 @@
   font-size: 0.82em;
 }
 .markdown :global(blockquote) {
-  border-left: 3px solid var(--accent-gold);
+  border-left: 3px solid var(--mori-pink);
   padding-left: 12px;
   margin: 0.5em 0;
   color: var(--text-secondary);
@@ -147,13 +148,13 @@
   padding: 0.35em 0.6em;
 }
 .markdown :global(th) {
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--mori-blue-dim);
   font-weight: 600;
   text-align: left;
 }
 .markdown :global(hr) {
   border: none;
-  border-top: 1px solid var(--bg-border);
+  border-top: 2px dashed var(--bg-border);
   margin: 0.8em 0;
 }
 .markdown :global(a) {

@@ -10,6 +10,7 @@
 .title {
   margin: 0;
   font-size: 15px;
+  font-weight: 700;
   color: var(--text-primary);
 }
 
@@ -27,29 +28,48 @@
 
 .levelBtn {
   flex: 1;
-  padding: 8px 0;
-  border-radius: 8px;
-  border: 1px solid var(--bg-border);
-  background: transparent;
+  padding: 9px 0;
+  border-radius: 12px 14px 10px 14px / 14px 10px 14px 12px;
+  border: 1.6px dashed var(--bg-border);
+  background: var(--bg-elevated);
   color: var(--text-muted);
   font-size: 13px;
+  font-weight: 600;
+  font-family: var(--font-hand);
   cursor: pointer;
   transition: all .15s ease;
 }
 
-.levelBtnActive {
+.levelBtn:hover {
   border-color: var(--accent-gold);
-  color: var(--accent-gold);
+  color: #6d8160;
+}
+
+.levelBtnActive {
+  border-style: solid;
+  border-color: var(--accent-gold);
+  background: var(--accent-gold);
+  color: #fff;
+  box-shadow: var(--shadow-chip);
 }
 
 .startBtn {
-  padding: 8px 16px;
-  border-radius: 8px;
+  padding: 9px 16px;
+  border-radius: 12px 14px 10px 14px / 14px 10px 14px 12px;
   border: none;
   background: var(--accent-gold);
-  color: #1a1a1a;
+  color: #fff;
   font-size: 13px;
+  font-weight: 700;
+  font-family: var(--font-hand);
   cursor: pointer;
+  box-shadow: var(--shadow-chip);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.startBtn:hover:not(:disabled) {
+  transform: rotate(-1deg) translateY(-1px);
+  box-shadow: var(--shadow-chip-hover);
 }
 
 .startBtn:disabled {
@@ -64,15 +84,17 @@
 }
 
 .question {
-  border: 1px solid var(--bg-border);
-  border-radius: 10px;
+  border: 1.6px solid var(--bg-border);
+  border-radius: var(--radius-md);
   padding: 14px;
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-chip);
 }
 
 .word {
   margin: 0 0 10px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-primary);
 }
 
@@ -84,14 +106,20 @@
 
 .option {
   text-align: left;
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid var(--bg-border);
-  background: transparent;
+  padding: 9px 13px;
+  border-radius: 10px 12px 10px 12px / 12px 10px 12px 10px;
+  border: 1.6px solid var(--bg-border);
+  background: #fff;
   color: var(--text-primary);
   font-size: 13px;
+  font-family: var(--font-hand);
   cursor: pointer;
-  transition: border-color .15s ease;
+  transition: border-color .15s ease, background .15s ease, transform .15s ease;
+}
+
+.option:hover:not(:disabled) {
+  border-color: var(--accent-gold);
+  transform: translateX(2px);
 }
 
 .option:disabled {
@@ -99,13 +127,15 @@
 }
 
 .optionCorrect {
-  border-color: #3fb96f;
-  color: #3fb96f;
+  border-color: var(--mori-green-ok);
+  color: #6a8a6f;
+  background: rgba(143, 174, 148, 0.14);
 }
 
 .optionWrong {
-  border-color: #e05b5b;
-  color: #e05b5b;
+  border-color: var(--mori-red-no);
+  color: #b06a62;
+  background: rgba(207, 141, 133, 0.13);
 }
 
 .feedback {
@@ -117,13 +147,13 @@
 .feedbackOk {
   margin: 0;
   font-size: 13px;
-  color: #3fb96f;
+  color: #6a8a6f;
 }
 
 .feedbackNo {
   margin: 0;
   font-size: 13px;
-  color: #e05b5b;
+  color: #b06a62;
 }
 
 .example {
@@ -136,8 +166,8 @@
 .score {
   margin: 0;
   font-size: 22px;
-  font-weight: 600;
-  color: var(--accent-gold);
+  font-weight: 700;
+  color: #6d8160;
 }
 
 .wrongTitle {
@@ -157,5 +187,5 @@
 .error {
   margin: 0;
   font-size: 12px;
-  color: #e05b5b;
+  color: #b06a62;
 }

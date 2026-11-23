@@ -31,13 +31,13 @@ const en = {
   "panel.debug": "Trace",
 
   // Study plan panel
-  "plan.title": "Study Plan",
+  "plan.title": "🗓️ Study Plan",
   "plan.hint": "No study plan yet. Ask in the chat, e.g. \"Make me a CET-4 study plan, exam date 2026-06-13, 2 hours per day\" — the AI-generated plan is saved here automatically.",
   "plan.savedAt": "Saved at",
   "plan.delete": "Delete plan",
 
   // Study record panel
-  "record.title": "Study Record",
+  "record.title": "📒 Study Record",
   "record.quizRounds": "Vocabulary quiz rounds",
   "record.translate": "Translation practices",
   "record.essay": "Essay reviews",
@@ -54,7 +54,7 @@ const en = {
   "record.empty": "No study record yet. Try a vocab quiz or practice translation/essay in the chat!",
 
   // Vocab quiz panel
-  "quiz.title": "Vocabulary Quiz",
+  "quiz.title": "✏️ Vocabulary Quiz",
   "quiz.hint": "Pick a level. 5 multiple-choice questions per round; wrong words are recorded.",
   "quiz.level4": "CET-4 Words",
   "quiz.level6": "CET-6 Words",

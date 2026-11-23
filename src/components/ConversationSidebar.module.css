@@ -5,11 +5,10 @@
   min-width: 0;
   min-height: 0;
   background:
-    linear-gradient(180deg, rgba(245, 200, 66, 0.04) 0%, transparent 18%),
-    rgba(10, 10, 16, 0.78);
-  border-right: 1px solid var(--bg-border);
-  backdrop-filter: blur(18px) saturate(140%);
-  -webkit-backdrop-filter: blur(18px) saturate(140%);
+    radial-gradient(circle at 20% 8%, rgba(169, 188, 201, 0.14) 0%, transparent 40%),
+    radial-gradient(circle at 90% 92%, rgba(217, 176, 163, 0.12) 0%, transparent 45%),
+    #f2ede3;
+  border-right: 2px dashed var(--bg-border);
   position: relative;
 }
 
@@ -17,10 +16,16 @@
   content: '';
   position: absolute;
   top: 0;
-  right: 0;
-  width: 1px;
+  right: -2px;
+  width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, rgba(245, 200, 66, 0.18), transparent);
+  background: repeating-linear-gradient(
+    180deg,
+    transparent 0px,
+    transparent 7px,
+    rgba(139, 130, 118, 0.25) 7px,
+    rgba(139, 130, 118, 0.25) 12px
+  );
   pointer-events: none;
 }
 
@@ -57,25 +62,28 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 10px;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--accent-gold-dim);
-  background: rgba(245, 200, 66, 0.08);
-  color: var(--accent-gold);
-  font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 12px 14px 10px 14px / 14px 10px 14px 12px;
+  border: 1.6px solid var(--accent-gold);
+  background: var(--accent-gold-dim);
+  color: #6d8160;
+  font-family: var(--font-hand);
+  font-size: 11.5px;
+  font-weight: 700;
   letter-spacing: 0.04em;
   cursor: pointer;
+  box-shadow: var(--shadow-chip);
   transition: background var(--transition-fast),
               border-color var(--transition-fast),
               color var(--transition-fast),
-              transform var(--transition-fast);
+              transform var(--transition-fast),
+              box-shadow var(--transition-fast);
 }
 .newBtn:hover:not(:disabled) {
-  background: rgba(245, 200, 66, 0.16);
-  border-color: var(--accent-gold);
-  box-shadow: 0 0 12px rgba(245, 200, 66, 0.18);
+  background: var(--accent-gold);
+  color: #fff;
+  box-shadow: var(--shadow-chip-hover);
+  transform: rotate(-1.5deg);
 }
 .newBtn:active:not(:disabled) {
   transform: scale(0.97);
@@ -114,17 +122,17 @@
   /* extra right padding leaves room for the absolutely-positioned delete btn */
   padding: 10px 32px 10px 12px;
   border-radius: var(--radius-sm);
-  border: 1px solid transparent;
+  border: 1.6px solid transparent;
   background: transparent;
   color: var(--text-secondary);
   cursor: pointer;
-  font-family: var(--font-mono);
+  font-family: var(--font-hand);
   transition: background var(--transition-fast),
               border-color var(--transition-fast),
               color var(--transition-fast);
 }
 .item:hover:not(:disabled):not(.itemActive) {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.5);
   color: var(--text-primary);
 }
 .item:disabled {
@@ -133,11 +141,10 @@
 }
 
 .itemActive {
-  background: linear-gradient(180deg, rgba(245, 200, 66, 0.12), rgba(245, 200, 66, 0.04));
-  border-color: var(--accent-gold-dim);
+  background: var(--bg-elevated);
+  border-color: var(--accent-gold);
   color: var(--text-primary);
-  box-shadow: inset 0 0 0 1px rgba(245, 200, 66, 0.06),
-              0 0 18px rgba(245, 200, 66, 0.05);
+  box-shadow: var(--shadow-chip);
 }
 
 .itemRow {
@@ -157,7 +164,7 @@
   text-overflow: ellipsis;
 }
 .itemActive .itemTitle {
-  color: var(--accent-gold);
+  color: #6d8160;
 }
 .itemTime {
   flex-shrink: 0;
@@ -271,11 +278,11 @@
   width: 100%;
   padding: 8px 10px;
   border-radius: var(--radius-sm);
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--bg-border);
+  background: var(--bg-elevated);
+  border: 1.6px dashed var(--bg-border);
   color: var(--text-secondary);
-  font-family: var(--font-mono);
-  font-size: 11px;
+  font-family: var(--font-hand);
+  font-size: 11.5px;
   letter-spacing: 0.04em;
   cursor: pointer;
   transition: background var(--transition-fast),
@@ -283,9 +290,9 @@
               border-color var(--transition-fast);
 }
 .loadMore:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.05);
+  background: #fff;
   color: var(--text-primary);
-  border-color: var(--accent-gold-dim);
+  border-color: var(--accent-gold);
 }
 .loadMore:disabled {
   opacity: 0.5;

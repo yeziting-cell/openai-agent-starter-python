@@ -10,6 +10,7 @@
 .title {
   margin: 0;
   font-size: 15px;
+  font-weight: 700;
   color: var(--text-primary);
 }
 
@@ -29,8 +30,10 @@
 .planContent {
   margin: 0;
   padding: 14px;
-  border: 1px solid var(--bg-border);
-  border-radius: 10px;
+  border: 1.6px dashed var(--bg-border);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-chip);
   font-size: 13px;
   line-height: 1.8;
   color: var(--text-primary);
@@ -42,16 +45,18 @@
 .deleteBtn {
   align-self: flex-start;
   padding: 6px 14px;
-  border-radius: 8px;
-  border: 1px solid var(--bg-border);
+  border-radius: 10px 12px 10px 12px / 12px 10px 12px 10px;
+  border: 1.6px dashed var(--bg-border);
   background: transparent;
   color: var(--text-muted);
   font-size: 12px;
+  font-family: var(--font-hand);
   cursor: pointer;
-  transition: color .15s ease, border-color .15s ease;
+  transition: color .15s ease, border-color .15s ease, background .15s ease;
 }
 
 .deleteBtn:hover {
-  border-color: #e05b5b;
-  color: #e05b5b;
+  border-color: var(--mori-red-no);
+  color: #b06a62;
+  background: var(--mori-pink-dim);
 }

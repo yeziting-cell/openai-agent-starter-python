@@ -10,6 +10,7 @@
 .title {
   margin: 0 0 4px;
   font-size: 15px;
+  font-weight: 700;
   color: var(--text-primary);
 }
 
@@ -24,16 +25,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 12px;
-  border: 1px solid var(--bg-border);
-  border-radius: 8px;
+  padding: 9px 14px;
+  border: 1.6px solid var(--bg-border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
   font-size: 13px;
   color: var(--text-muted);
 }
 
+.statRow:nth-child(odd) {
+  transform: rotate(-.35deg);
+}
+.statRow:nth-child(even) {
+  transform: rotate(.3deg);
+}
+
 .statRow b {
-  color: var(--accent-gold);
-  font-size: 14px;
+  color: #6d8160;
+  font-size: 15px;
 }
 
 .wrongTitle {
@@ -58,24 +67,41 @@
 
 .refreshBtn {
   flex: 1;
-  padding: 8px 0;
-  border-radius: 8px;
-  border: 1px solid var(--bg-border);
-  background: transparent;
+  padding: 9px 0;
+  border-radius: 10px 12px 10px 12px / 12px 10px 12px 10px;
+  border: 1.6px dashed var(--bg-border);
+  background: var(--bg-elevated);
   color: var(--text-muted);
   font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-hand);
   cursor: pointer;
+  transition: color .15s ease, border-color .15s ease;
+}
+
+.refreshBtn:hover {
+  color: #6d8160;
+  border-color: var(--accent-gold);
 }
 
 .exportBtn {
   flex: 2;
-  padding: 8px 0;
-  border-radius: 8px;
+  padding: 9px 0;
+  border-radius: 10px 12px 10px 12px / 12px 10px 12px 10px;
   border: none;
   background: var(--accent-gold);
-  color: #1a1a1a;
+  color: #fff;
   font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-hand);
   cursor: pointer;
+  box-shadow: var(--shadow-chip);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.exportBtn:hover:not(:disabled) {
+  transform: rotate(-1deg) translateY(-1px);
+  box-shadow: var(--shadow-chip-hover);
 }
 
 .exportBtn:disabled {
@@ -86,11 +112,11 @@
 .msgOk {
   margin: 0;
   font-size: 12px;
-  color: #3fb96f;
+  color: #6a8a6f;
 }
 
 .msgFail {
   margin: 0;
   font-size: 12px;
-  color: #e05b5b;
+  color: #b06a62;
 }

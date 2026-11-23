@@ -30,11 +30,11 @@ import styles from './App.module.css';
 
 const LAMP_IDS = ['create_study_plan', 'query_vocab', 'get_vocab_list', 'make_vocab_quiz', 'text_statistics'] as const;
 const LAMP_ICONS: Record<string, string> = {
-  create_study_plan: '📅',
-  query_vocab: '📖',
-  get_vocab_list: '📝',
-  make_vocab_quiz: '✅',
-  text_statistics: '📊',
+  create_study_plan: '🗓️',
+  query_vocab: '🔍',
+  get_vocab_list: '🌱',
+  make_vocab_quiz: '✏️',
+  text_statistics: '🎈',
 };
 const LAMP_I18N_KEYS: Record<string, string> = {
   create_study_plan: 'tool.create_study_plan',
@@ -610,7 +610,7 @@ function AppInner() {
         <div className={styles.chatPanel}>
           <header className={styles.header}>
             <div className={styles.headerLeft}>
-              <span className={styles.logo}>⬡</span>
+              <span className={styles.logo}>🌸</span>
               <div>
                 <p className={styles.title}>{t("app.title")}</p>
                 <p className={styles.subtitle}>{t("app.subtitle")}</p>
@@ -636,31 +636,31 @@ function AppInner() {
               className={`${styles.panelTab} ${rightPanelMode === 'record' ? styles.panelTabActive : ''}`}
               onClick={() => setRightPanelMode('record')}
             >
-              {t('panel.record')}
+              📒 {t('panel.record')}
             </button>
             <button
               className={`${styles.panelTab} ${rightPanelMode === 'plan' ? styles.panelTabActive : ''}`}
               onClick={() => setRightPanelMode('plan')}
             >
-              {t('panel.plan')}
+              🗓️ {t('panel.plan')}
             </button>
             <button
               className={`${styles.panelTab} ${rightPanelMode === 'quiz' ? styles.panelTabActive : ''}`}
               onClick={() => setRightPanelMode('quiz')}
             >
-              {t('panel.quiz')}
+              ✏️ {t('panel.quiz')}
             </button>
             <button
               className={`${styles.panelTab} ${rightPanelMode === 'code' ? styles.panelTabActive : ''}`}
               onClick={() => setRightPanelMode('code')}
             >
-              {t('panel.code')}
+              📄 {t('panel.code')}
             </button>
             <button
               className={`${styles.panelTab} ${rightPanelMode === 'debug' ? styles.panelTabActive : ''}`}
               onClick={() => setRightPanelMode('debug')}
             >
-              {t('panel.debug')}
+              🔎 {t('panel.debug')}
             </button>
           </div>
           {rightPanelMode === 'record' ? (

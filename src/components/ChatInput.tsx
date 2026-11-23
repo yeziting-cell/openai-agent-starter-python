@@ -78,8 +78,8 @@ export default function ChatInput({ onSend, onStop, onClear, disabled }: Props) 
           disabled={!value.trim() || disabled}
           aria-label={t("aria.send")}
         >
-          <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
-            <path d="M3 10L17 3l-4 7 4 7L3 10z" fill="currentColor"/>
+          <svg viewBox="0 0 20 20" fill="none" width="17" height="17">
+            <path d="M3.5 10.2c2.8-1.2 8.5-4.3 13-6.7-.9 3.4-2.2 8.6-2.9 11.1-.3 1-1.4 1.3-2.2.6l-2.6-2.3c-.5-.5-1.3-.5-1.8-.1l-1.6 1.2c-.7.5-1.7.1-1.8-.7l-.1-3.1z" fill="currentColor"/>
           </svg>
         </button>
         <button

@@ -31,13 +31,13 @@ const zh = {
   "panel.debug": "调试",
 
   // Study plan panel
-  "plan.title": "备考计划",
+  "plan.title": "🗓️ 备考计划",
   "plan.hint": "还没有备考计划。在聊天框输入「帮我制定四级备考计划，考试日期 2026-06-13，每天学习 2 小时」，AI 生成的计划会自动保存到这里。",
   "plan.savedAt": "保存时间",
   "plan.delete": "删除计划",
 
   // Study record panel
-  "record.title": "学习记录",
+  "record.title": "📒 学习记录",
   "record.quizRounds": "词汇测试轮数",
   "record.translate": "翻译练习次数",
   "record.essay": "作文批改次数",
@@ -54,7 +54,7 @@ const zh = {
   "record.empty": "暂无学习记录，去聊天框练习翻译/作文，或做一轮词汇测试吧！",
 
   // Vocab quiz panel
-  "quiz.title": "词汇测试",
+  "quiz.title": "✏️ 词汇测试",
   "quiz.hint": "选择级别，每次 5 道选择题，答错单词会记录下来。",
   "quiz.level4": "四级词汇",
   "quiz.level6": "六级词汇",

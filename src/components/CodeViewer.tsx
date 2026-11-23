@@ -37,7 +37,7 @@ export default function CodeViewer() {
       {/* ── Header ── */}
       <div className={styles.header}>
         <div className={styles.headerLeft}>
-          <span className={styles.fileIcon}>⬡</span>
+          <span className={styles.fileIcon}>📄</span>
           <span className={styles.filename}>handler.py</span>
         </div>
         <span className={styles.badge}>READ ONLY</span>

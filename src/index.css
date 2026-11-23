@@ -4,35 +4,61 @@
   padding: 0;
 }
 
+/* ═══════════════════════════════════════════════════════════
+   四六级智学通 · 莫兰迪手绘风主题
+   奶油纸底 · 鼠尾草绿主色 · 灰粉/雾蓝/灰紫点缀
+   ═══════════════════════════════════════════════════════════ */
 :root {
-  --bg-base: #0a0a0f;
-  --bg-surface: #111118;
-  --bg-elevated: #18181f;
-  --bg-border: #2a2a38;
+  /* 纸张底色系 */
+  --bg-base: #ece6dc;          /* 燕麦纸 */
+  --bg-surface: #f7f2e9;       /* 奶油白 */
+  --bg-elevated: #fdfaf3;      /* 米白卡片 */
+  --bg-border: #d8cdbd;        /* 浅咖灰描边 */
 
-  --text-primary: #f0f0f8;
-  --text-secondary: #8888aa;
-  --text-muted: #44445a;
+  /* 文字（暖棕灰） */
+  --text-primary: #4f4841;
+  --text-secondary: #8b8276;
+  --text-muted: #b4aa9b;
 
-  --accent-gold: #f5c842;
-  --accent-gold-dim: #f5c84230;
-  --accent-gold-glow: #f5c84260;
+  /* 主色：鼠尾草灰绿（沿用 accent-gold 变量名，全局换肤） */
+  --accent-gold: #8fa382;
+  --accent-gold-dim: rgba(143, 163, 130, 0.22);
+  --accent-gold-glow: rgba(143, 163, 130, 0.45);
 
-  --user-bubble: #1e1e2e;
-  --user-border: #3a3a5a;
-  --bot-bubble: #151520;
-  --bot-border: #252535;
+  /* 莫兰迪辅助色 */
+  --mori-pink: #d9b0a3;        /* 灰粉 */
+  --mori-pink-dim: rgba(217, 176, 163, 0.3);
+  --mori-blue: #a9bcc9;        /* 雾蓝 */
+  --mori-blue-dim: rgba(169, 188, 201, 0.3);
+  --mori-purple: #b3a8bd;      /* 灰紫 */
+  --mori-purple-dim: rgba(179, 168, 189, 0.3);
+  --mori-wheat: #d3c4a5;       /* 燕麦黄 */
+  --mori-green-ok: #8fae94;    /* 答对 */
+  --mori-red-no: #cf8d85;      /* 答错 */
 
-  --font-display: 'Syne', sans-serif;
-  --font-mono: 'DM Mono', monospace;
+  /* 气泡 */
+  --user-bubble: #e4ebef;      /* 雾蓝便签 */
+  --user-border: #bccbd6;
+  --bot-bubble: #fffdf7;       /* 奶油纸 */
+  --bot-border: #d8cdbd;
 
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
+  /* 字体：圆润友好（不依赖外部字体，国内网络零风险） */
+  --font-display: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', sans-serif;
+  --font-mono: 'Consolas', 'PingFang SC', 'Microsoft YaHei', monospace;
+  --font-hand: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
 
-  --shadow-card: 0 8px 40px rgba(0,0,0,0.5);
-  --transition-fast: 140ms cubic-bezier(.4,0,.2,1);
+  /* 手绘感圆角（不规则波浪边） */
+  --radius-sm: 10px 12px 10px 14px / 13px 10px 14px 10px;
+  --radius-md: 16px 18px 14px 20px / 18px 14px 20px 16px;
+  --radius-lg: 22px 18px 24px 18px / 18px 24px 18px 22px;
+  --radius-xl: 30px 26px 32px 24px / 26px 32px 24px 30px;
+
+  /* 贴纸式错位阴影（代替发光） */
+  --shadow-card: 4px 5px 0 rgba(122, 108, 92, 0.13), 0 12px 32px rgba(122, 108, 92, 0.1);
+  --shadow-chip: 2px 3px 0 rgba(122, 108, 92, 0.14);
+  --shadow-chip-hover: 3px 5px 0 rgba(122, 108, 92, 0.2);
+
+  --transition-fast: 160ms cubic-bezier(.4,0,.2,1);
   --transition-med: 280ms cubic-bezier(.4,0,.2,1);
 }
 
@@ -41,18 +67,34 @@ html, body, #root {
   width: 100%;
   background: var(--bg-base);
   color: var(--text-primary);
-  font-family: var(--font-mono);
+  font-family: var(--font-hand);
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
 }
 
-/* scrollbar */
-::-webkit-scrollbar { width: 4px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--bg-border); border-radius: 2px; }
-::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+/* 纸张质感：细圆点纹 */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(122, 108, 92, 0.07) 1px, transparent 1.4px);
+  background-size: 22px 22px;
+  z-index: 0;
+}
 
-/* Language toggle */
+/* scrollbar —— 圆滚滚的小豆子 */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: #cfc4b2;
+  border-radius: 99px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background: #b8ab95; background-clip: padding-box; }
+
+/* Language toggle —— 手绘小圆片 */
 .lang-toggle {
   position: fixed;
   top: 14px;
@@ -61,33 +103,31 @@ html, body, #root {
   display: flex;
   align-items: center;
   gap: 2px;
-  padding: 6px 14px;
-  border-radius: 20px;
-  border: none;
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(12px);
+  padding: 7px 16px;
+  border-radius: 16px 18px 14px 18px / 18px 14px 18px 16px;
+  border: 1.6px solid var(--bg-border);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-chip);
   cursor: pointer;
-  transition: background 0.3s ease, box-shadow 0.3s ease;
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
   line-height: 1;
 }
 .lang-toggle:hover {
-  background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 0 20px rgba(245, 200, 66, 0.06);
+  background: #fff;
+  box-shadow: var(--shadow-chip-hover);
+  transform: rotate(-1.5deg);
 }
-.lang-toggle:active {
-  transform: scale(0.96);
-}
+.lang-toggle:active { transform: scale(0.96); }
 .lang-toggle__label {
   display: inline-block;
-  font-family: var(--font-mono);
+  font-family: var(--font-hand);
   font-size: 12px;
   font-weight: 400;
   color: var(--text-muted);
   transition: font-size 0.35s cubic-bezier(.4, 0, .2, 1),
               color 0.35s cubic-bezier(.4, 0, .2, 1),
               font-weight 0.35s cubic-bezier(.4, 0, .2, 1),
-              transform 0.35s cubic-bezier(.4, 0, .2, 1),
-              text-shadow 0.35s ease;
+              transform 0.35s cubic-bezier(.4, 0, .2, 1);
   transform: scale(0.9);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -97,10 +137,9 @@ html, body, #root {
   font-weight: 700;
   color: var(--accent-gold);
   transform: scale(1);
-  text-shadow: 0 0 12px var(--accent-gold-glow);
 }
 .lang-toggle__sep {
-  font-family: var(--font-mono);
+  font-family: var(--font-hand);
   font-size: 11px;
   color: var(--text-muted);
   opacity: 0.4;

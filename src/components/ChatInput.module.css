@@ -1,14 +1,14 @@
 .bar {
   padding: 14px 20px 16px;
-  border-top: 1px solid var(--bg-border);
+  border-top: 2px dashed var(--bg-border);
   display: flex;
   flex-direction: column;
   gap: 8px;
   flex-shrink: 0;
-  background: rgba(255,255,255,.015);
+  background: var(--bg-surface);
 }
 
-/* preset chips */
+/* preset chips —— 手绘小纸条 */
 .presets {
   display: flex;
   gap: 8px;
@@ -16,29 +16,35 @@
   min-width: 0;
 }
 .presetChip {
-  padding: 5px 12px;
+  padding: 5px 14px;
   max-width: 100%;
   min-width: 0;
-  border-radius: 999px;
-  border: 1px solid var(--bg-border);
+  border-radius: 14px 16px 12px 16px / 16px 12px 16px 14px;
+  border: 1.5px solid var(--bg-border);
   background: var(--bg-elevated);
   color: var(--text-secondary);
-  font-family: var(--font-mono);
-  font-size: .68rem;
+  font-family: var(--font-hand);
+  font-size: .72rem;
+  font-weight: 600;
   letter-spacing: .02em;
   cursor: pointer;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  box-shadow: var(--shadow-chip);
   transition:
     color var(--transition-fast),
     border-color var(--transition-fast),
-    background var(--transition-fast);
+    background var(--transition-fast),
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 .presetChip:hover:not(:disabled) {
-  color: var(--accent-gold);
+  color: #6d8160;
   border-color: var(--accent-gold);
   background: var(--accent-gold-dim);
+  transform: rotate(-1deg) translateY(-1px);
+  box-shadow: var(--shadow-chip-hover);
 }
 .presetChip:disabled {
   opacity: .4;
@@ -50,14 +56,14 @@
   align-items: flex-end;
   gap: 10px;
   background: var(--bg-elevated);
-  border: 1px solid var(--bg-border);
+  border: 1.8px solid var(--bg-border);
   border-radius: var(--radius-lg);
   padding: 10px 10px 10px 16px;
   transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
 .inputWrap:focus-within {
-  border-color: var(--accent-gold-glow);
-  box-shadow: 0 0 0 3px var(--accent-gold-dim);
+  border-color: var(--accent-gold);
+  box-shadow: var(--shadow-chip-hover);
 }
 .inputDisabled {
   opacity: .6;
@@ -69,8 +75,8 @@
   border: none;
   outline: none;
   color: var(--text-primary);
-  font-family: var(--font-mono);
-  font-size: .82rem;
+  font-family: var(--font-hand);
+  font-size: .88rem;
   line-height: 1.6;
   resize: none;
   min-height: 22px;
@@ -82,12 +88,13 @@
 .textarea:disabled { cursor: not-allowed; }
 
 .sendBtn {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  border-radius: 50% 44% 52% 46% / 46% 52% 44% 54%;
   border: none;
   background: var(--accent-gold);
-  color: #0a0a0f;
+  color: #fff;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,12 +103,12 @@
   transition: background var(--transition-fast),
               transform var(--transition-fast),
               box-shadow var(--transition-fast);
-  box-shadow: 0 0 12px var(--accent-gold-glow);
+  box-shadow: var(--shadow-chip);
 }
 .sendBtn:hover:not(:disabled) {
-  background: #ffe066;
-  transform: scale(1.07);
-  box-shadow: 0 0 20px var(--accent-gold-glow);
+  background: #7d9370;
+  transform: scale(1.1) rotate(-6deg);
+  box-shadow: var(--shadow-chip-hover);
 }
 .sendBtn:active:not(:disabled) { transform: scale(.95); }
 .sendDisabled {
@@ -111,13 +118,13 @@
   cursor: not-allowed;
 }
 
-/* stop button */
+/* stop button —— 莫兰迪灰粉 */
 .stopBtn {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  border-radius: 50% 44% 52% 46% / 46% 52% 44% 54%;
   border: none;
-  background: #e74c3c;
+  background: var(--mori-red-no);
   color: #fff;
   display: flex;
   align-items: center;
@@ -127,26 +134,26 @@
   transition: background var(--transition-fast),
               transform var(--transition-fast),
               box-shadow var(--transition-fast);
-  box-shadow: 0 0 12px rgba(231, 76, 60, .4);
+  box-shadow: var(--shadow-chip);
   animation: pulseStop 1.5s ease-in-out infinite;
 }
 .stopBtn:hover {
-  background: #c0392b;
-  transform: scale(1.07);
-  box-shadow: 0 0 20px rgba(231, 76, 60, .6);
+  background: #bd7f77;
+  transform: scale(1.1) rotate(6deg);
+  box-shadow: var(--shadow-chip-hover);
 }
 .stopBtn:active { transform: scale(.95); }
 @keyframes pulseStop {
-  0%, 100% { box-shadow: 0 0 12px rgba(231, 76, 60, .4); }
-  50% { box-shadow: 0 0 20px rgba(231, 76, 60, .7); }
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
 }
 
 /* clear history button */
 .clearBtn {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1px solid var(--bg-border);
+  width: 38px;
+  height: 38px;
+  border-radius: 50% 44% 52% 46% / 46% 52% 44% 54%;
+  border: 1.6px dashed var(--bg-border);
   background: transparent;
   color: var(--text-muted);
   display: flex;
@@ -160,10 +167,10 @@
               transform var(--transition-fast);
 }
 .clearBtn:hover:not(:disabled) {
-  color: var(--text-primary);
-  border-color: var(--text-muted);
-  background: rgba(255,255,255,.06);
-  transform: scale(1.07);
+  color: var(--mori-red-no);
+  border-color: var(--mori-red-no);
+  background: var(--mori-pink-dim);
+  transform: scale(1.08) rotate(4deg);
 }
 .clearBtn:active:not(:disabled) { transform: scale(.95); }
 .clearBtn:disabled {
@@ -172,7 +179,7 @@
 }
 
 .hint {
-  font-size: .6rem;
+  font-size: .62rem;
   color: var(--text-muted);
   letter-spacing: .04em;
   text-align: center;
