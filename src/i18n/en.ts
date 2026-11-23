@@ -16,11 +16,60 @@ const en = {
   "preset.1": "What is the weather like in Beijing now? Any clothing suggestions?",
   "preset.2": "Translate \"Hello, welcome to Beijing!\" into Chinese and count the characters.",
 
-  // Tool indicators
-  "tool.weather": "Weather",
-  "tool.clothing": "Clothing",
-  "tool.translate": "Translate",
-  "tool.statistics": "Statistics",
+  // Tool indicators (CET Agent's 5 tools)
+  "tool.create_study_plan": "Study Plan",
+  "tool.query_vocab": "Vocab",
+  "tool.get_vocab_list": "Word List",
+  "tool.make_vocab_quiz": "Quiz",
+  "tool.text_statistics": "Stats",
+
+  // Right panel tabs
+  "panel.record": "Study Record",
+  "panel.plan": "Study Plan",
+  "panel.quiz": "Vocab Quiz",
+  "panel.code": "Code",
+  "panel.debug": "Trace",
+
+  // Study plan panel
+  "plan.title": "Study Plan",
+  "plan.hint": "No study plan yet. Ask in the chat, e.g. \"Make me a CET-4 study plan, exam date 2026-06-13, 2 hours per day\" — the AI-generated plan is saved here automatically.",
+  "plan.savedAt": "Saved at",
+  "plan.delete": "Delete plan",
+
+  // Study record panel
+  "record.title": "Study Record",
+  "record.quizRounds": "Vocabulary quiz rounds",
+  "record.translate": "Translation practices",
+  "record.essay": "Essay reviews",
+  "record.wrongCount": "Wrong words total",
+  "record.plan": "Study plan",
+  "record.planYes": "Created",
+  "record.planNo": "None",
+  "record.wrongTitle": "Wrong-word book (sorted by count, top 10):",
+  "record.refresh": "Refresh",
+  "record.export": "Export Word Report",
+  "record.exporting": "Generating…",
+  "record.exportOk": "Report generated, download started.",
+  "record.exportFail": "Export failed, please try again later.",
+  "record.empty": "No study record yet. Try a vocab quiz or practice translation/essay in the chat!",
+
+  // Vocab quiz panel
+  "quiz.title": "Vocabulary Quiz",
+  "quiz.hint": "Pick a level. 5 multiple-choice questions per round; wrong words are recorded.",
+  "quiz.level4": "CET-4 Words",
+  "quiz.level6": "CET-6 Words",
+  "quiz.start": "Start Quiz",
+  "quiz.loading": "Loading…",
+  "quiz.next": "Next",
+  "quiz.finish": "See Result",
+  "quiz.restart": "Try Again",
+  "quiz.score": "Score",
+  "quiz.correct": "✓ Correct",
+  "quiz.wrong": "✗ Wrong",
+  "quiz.wrongTitle": "Wrong words this round:",
+  "quiz.wrongSaved": "Wrong words saved to your local study record.",
+  "quiz.allRight": "All correct, great job!",
+  "quiz.error": "Failed to load vocabulary data. Please try again later.",
 
   // Status & errors
   "status.error": "Request failed. Please check if the backend service is running.",

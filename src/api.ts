@@ -17,6 +17,7 @@ import type {
   ListConversationsParams,
   ListConversationsResponse,
 } from './types';
+import type { StudyStats } from './lib/studyStats';
 
 export const API = {
   chat: '/chat',
@@ -25,6 +26,7 @@ export const API = {
   clearHistory: '/clear-history',           // Clear messages in a conversation
   conversations: '/conversations',          // List conversations for a user
   deleteConversation: '/delete-conversation', // Permanently delete a conversation
+  exportReport: '/export-report',           // Generate and download Word study report
 } as const;
 
 export interface RawSseEvent {
@@ -335,5 +337,23 @@ export async function deleteConversation(
     return res.ok;
   } catch {
     return false;
+  }
+}
+
+/**
+ * 请求后端用 python-docx 生成 Word 学习报告，返回二进制流。
+ * 失败（网络错误 / 后端异常）时返回 null。
+ */
+export async function exportStudyReport(stats: StudyStats): Promise<Blob | null> {
+  try {
+    const res = await fetch(API.exportReport, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ stats }),
+    });
+    if (!res.ok) return null;
+    return await res.blob();
+  } catch {
+    return null;
   }
 }

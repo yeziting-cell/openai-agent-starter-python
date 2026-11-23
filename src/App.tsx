@@ -17,6 +17,10 @@ import ChatWindow from './components/ChatWindow';
 import ChatInput from './components/ChatInput';
 import DebugPanel from './components/DebugPanel';
 import CodeViewer from './components/CodeViewer';
+import VocabQuiz from './components/VocabQuiz';
+import StudyPlanPanel, { STUDY_PLAN_KEY } from './components/StudyPlanPanel';
+import StudyRecord from './components/StudyRecord';
+import { incrementExercise } from './lib/studyStats';
 import ConversationSidebar from './components/ConversationSidebar';
 import GitHubLink from './components/GitHubLink';
 import DeployLink from './components/DeployLink';
@@ -24,18 +28,20 @@ import { I18nProvider, LangToggle, useT, MessageKeys } from './i18n';
 import { deleteSnapshot, loadSnapshot, saveSnapshot } from './lib/chatUiStore';
 import styles from './App.module.css';
 
-const LAMP_IDS = ['get_weather', 'get_clothing_advice', 'translate_text', 'text_statistics'] as const;
+const LAMP_IDS = ['create_study_plan', 'query_vocab', 'get_vocab_list', 'make_vocab_quiz', 'text_statistics'] as const;
 const LAMP_ICONS: Record<string, string> = {
-  get_weather: '☀️',
-  get_clothing_advice: '👔',
-  translate_text: '🌐',
+  create_study_plan: '📅',
+  query_vocab: '📖',
+  get_vocab_list: '📝',
+  make_vocab_quiz: '✅',
   text_statistics: '📊',
 };
 const LAMP_I18N_KEYS: Record<string, string> = {
-  get_weather: 'tool.weather',
-  get_clothing_advice: 'tool.clothing',
-  translate_text: 'tool.translate',
-  text_statistics: 'tool.statistics',
+  create_study_plan: 'tool.create_study_plan',
+  query_vocab: 'tool.query_vocab',
+  get_vocab_list: 'tool.get_vocab_list',
+  make_vocab_quiz: 'tool.make_vocab_quiz',
+  text_statistics: 'tool.text_statistics',
 };
 
 const CONVERSATION_ID_STORAGE_KEY = 'eo_conversation_id';
@@ -103,7 +109,7 @@ function AppInner() {
   const [loading, setLoading]   = useState(false);
   const [historyLoading, setHistoryLoading] = useState(true);
   const [debugEvents, setDebugEvents] = useState<RawSseEvent[]>([]);
-  const [rightPanelMode, setRightPanelMode] = useState<'code' | 'debug'>('code');
+  const [rightPanelMode, setRightPanelMode] = useState<'record' | 'plan' | 'quiz' | 'code' | 'debug'>('code');
 
   // Conversation list (sidebar) state
   const [conversations, setConversations] = useState<ConversationSummary[]>([]);
@@ -346,12 +352,28 @@ function AppInner() {
       });
     };
 
+    // 备考计划保存：本轮若调用了 create_study_plan，回复结束后存入 LocalStorage
+    let planToolCalled = false;
+    let streamedContent = '';
+
+    // 学习记录统计（简单启发式）：
+    //   翻译练习 → 消息含"翻译/译文"
+    //   作文批改 → 消息含"作文"
+    // 成功回复结束（onDone）时才 +1，出错的轮次不计数
+    const isTranslateMsg = /翻译|译文/.test(text);
+    const isEssayMsg = /作文/.test(text);
+
     const ctrl = sendMessageStream(text, {
       onTextDelta(delta) {
+        streamedContent += delta;
         updateBotMessage(content => content + delta);
       },
 
       onToolCalled(toolName) {
+        // 记录本轮是否调用了备考计划工具，回复结束后把计划存入 LocalStorage
+        if (toolName === 'create_study_plan') {
+          planToolCalled = true;
+        }
         setLamps(prev =>
           prev.map(l =>
             l.id === toolName
@@ -398,6 +420,21 @@ function AppInner() {
       },
 
       onDone() {
+        // 本轮成功完成翻译/作文练习 → 计数 +1
+        if (isTranslateMsg) incrementExercise('translate');
+        if (isEssayMsg) incrementExercise('essay');
+
+        // 本轮生成了备考计划 → 自动保存到 LocalStorage（保留最新一次）
+        if (planToolCalled && streamedContent.trim()) {
+          try {
+            localStorage.setItem(STUDY_PLAN_KEY, JSON.stringify({
+              content: streamedContent,
+              savedAt: Date.now(),
+            }));
+          } catch (e) {
+            console.warn('[study-plan] save failed:', e);
+          }
+        }
         clearBotStreaming();
         finishStream();
         // Reconcile with backend so the title (and any other fields the runtime
@@ -594,7 +631,45 @@ function AppInner() {
         </div>
 
         <div className={styles.codePanel}>
-          {rightPanelMode === 'code' ? (
+          <div className={styles.panelTabs}>
+            <button
+              className={`${styles.panelTab} ${rightPanelMode === 'record' ? styles.panelTabActive : ''}`}
+              onClick={() => setRightPanelMode('record')}
+            >
+              {t('panel.record')}
+            </button>
+            <button
+              className={`${styles.panelTab} ${rightPanelMode === 'plan' ? styles.panelTabActive : ''}`}
+              onClick={() => setRightPanelMode('plan')}
+            >
+              {t('panel.plan')}
+            </button>
+            <button
+              className={`${styles.panelTab} ${rightPanelMode === 'quiz' ? styles.panelTabActive : ''}`}
+              onClick={() => setRightPanelMode('quiz')}
+            >
+              {t('panel.quiz')}
+            </button>
+            <button
+              className={`${styles.panelTab} ${rightPanelMode === 'code' ? styles.panelTabActive : ''}`}
+              onClick={() => setRightPanelMode('code')}
+            >
+              {t('panel.code')}
+            </button>
+            <button
+              className={`${styles.panelTab} ${rightPanelMode === 'debug' ? styles.panelTabActive : ''}`}
+              onClick={() => setRightPanelMode('debug')}
+            >
+              {t('panel.debug')}
+            </button>
+          </div>
+          {rightPanelMode === 'record' ? (
+            <StudyRecord />
+          ) : rightPanelMode === 'plan' ? (
+            <StudyPlanPanel />
+          ) : rightPanelMode === 'quiz' ? (
+            <VocabQuiz />
+          ) : rightPanelMode === 'code' ? (
             <CodeViewer />
           ) : (
             <DebugPanel events={debugEvents} onClear={() => setDebugEvents([])} />

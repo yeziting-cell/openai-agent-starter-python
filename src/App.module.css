@@ -109,6 +109,30 @@
   overflow: hidden;
 }
 
+/* 右侧面板顶部切换按钮（词汇测试 / 代码 / 调试） */
+.panelTabs {
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 0;
+  flex: 0 0 auto;
+}
+
+.panelTab {
+  border: 1px solid var(--bg-border);
+  background: transparent;
+  color: var(--text-muted);
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: color .15s ease, border-color .15s ease;
+}
+
+.panelTabActive {
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+}
+
 @media (max-width: 1100px) {
   .codePanel {
     flex: 0 0 36%;
