@@ -16,16 +16,27 @@ export default function StudyPlanPanel() {
   const [plan, setPlan] = useState<{ content: string; savedAt: number } | null>(null);
 
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STUDY_PLAN_KEY);
-      if (!raw) return;
-      const parsed = JSON.parse(raw) as { content?: string; savedAt?: number };
-      if (parsed?.content) {
-        setPlan({ content: parsed.content, savedAt: parsed.savedAt ?? 0 });
+    const load = () => {
+      try {
+        const raw = localStorage.getItem(STUDY_PLAN_KEY);
+        if (!raw) { setPlan(null); return; }
+        const parsed = JSON.parse(raw) as { content?: string; savedAt?: number };
+        if (parsed?.content) {
+          setPlan({ content: parsed.content, savedAt: parsed.savedAt ?? 0 });
+        }
+      } catch {
+        // 数据损坏时忽略，视为无计划
       }
-    } catch {
-      // 数据损坏时忽略，视为无计划
-    }
+    };
+    load();
+    // 保存计划后 App.tsx 会派发 cet-data-updated，让正打开的面板立即刷新；
+    // storage 事件用于兼容多标签页场景。
+    window.addEventListener('cet-data-updated', load);
+    window.addEventListener('storage', load);
+    return () => {
+      window.removeEventListener('cet-data-updated', load);
+      window.removeEventListener('storage', load);
+    };
   }, []);
 
   const handleDelete = () => {

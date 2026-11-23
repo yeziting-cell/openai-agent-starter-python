@@ -362,6 +362,9 @@ function AppInner() {
     // 成功回复结束（onDone）时才 +1，出错的轮次不计数
     const isTranslateMsg = /翻译|译文/.test(text);
     const isEssayMsg = /作文/.test(text);
+    // 备考计划意图：作为兜底，即使模型本轮没调用 create_study_plan 工具、
+    // 只用文字给出计划，也把回复保存进备考计划面板。
+    const isPlanMsg = /备考计划|制定.*计划|学习计划|复习计划|做个计划/i.test(text);
 
     const ctrl = sendMessageStream(text, {
       onTextDelta(delta) {
@@ -425,7 +428,9 @@ function AppInner() {
         if (isEssayMsg) incrementExercise('essay');
 
         // 本轮生成了备考计划 → 自动保存到 LocalStorage（保留最新一次）
-        if (planToolCalled && streamedContent.trim()) {
+        // 兜底：模型偶尔会不调用工具、直接用文字给出计划，
+        // 因此只要本轮是备考计划意图且回复有内容，也保存。
+        if ((planToolCalled || isPlanMsg) && streamedContent.trim()) {
           try {
             localStorage.setItem(STUDY_PLAN_KEY, JSON.stringify({
               content: streamedContent,
@@ -435,6 +440,8 @@ function AppInner() {
             console.warn('[study-plan] save failed:', e);
           }
         }
+        // 通知右侧面板（备考计划 / 学习记录）立即刷新，无需切换标签页
+        window.dispatchEvent(new Event('cet-data-updated'));
         clearBotStreaming();
         finishStream();
         // Reconcile with backend so the title (and any other fields the runtime

@@ -19,9 +19,16 @@ export default function StudyRecord() {
     setExportMsg('');
   }, []);
 
-  // 首次进入加载一次；用户点击刷新按钮可重新读取
+  // 首次进入加载一次；数据更新事件 / 刷新按钮均可重新读取
   useEffect(() => {
     refresh();
+    const onUpdate = () => refresh();
+    window.addEventListener('cet-data-updated', onUpdate);
+    window.addEventListener('storage', onUpdate);
+    return () => {
+      window.removeEventListener('cet-data-updated', onUpdate);
+      window.removeEventListener('storage', onUpdate);
+    };
   }, [refresh]);
 
   const handleExport = async () => {
